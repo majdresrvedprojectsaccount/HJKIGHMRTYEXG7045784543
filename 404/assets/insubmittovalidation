@@ -1,0 +1,19 @@
+    const inSubmit = document.getElementById('insubmit');
+    const scValidation = document.getElementById('validation');
+    const scBing = document.getElementById('bing');
+    const closePopupButton = document.getElementById('close-validation');
+
+    scanQRButton.addEventListener('click', () => {
+        overlay.style.display = 'block';
+        scValidation.classList.add('show');
+    });
+
+    closePopupButton.addEventListener('click', () => {
+        scValidation.classList.remove('show');
+        scBing.style.display = 'none';
+    });
+
+    overlay.addEventListener('click', () => {
+        qrPopup.classList.remove('show');
+        scBing.style.display = 'none';
+    });

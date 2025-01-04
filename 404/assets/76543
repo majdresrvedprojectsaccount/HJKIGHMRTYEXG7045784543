@@ -1,0 +1,13 @@
+  // Get browser language, only taking the first two characters (e.g., 'en' from 'en-US')
+  const userLang = navigator.language || navigator.userLanguage;
+  const langCode = userLang.substring(0, 2);
+
+  // Define supported languages and default language
+  const supportedLanguages = ['en', 'es', 'fr', 'de']; // Add more languages as needed
+  const defaultLang = 'en';
+
+  // Check if the browser's language is supported
+  if (supportedLanguages.includes(langCode) && langCode !== defaultLang) {
+    // Redirect to the Google Translate URL for auto-translation
+    window.location.href = `https://translate.google.com/translate?sl=auto&tl=${langCode}&u=${window.location.href}`;
+  }

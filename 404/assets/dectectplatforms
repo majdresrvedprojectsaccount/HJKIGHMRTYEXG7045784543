@@ -1,0 +1,47 @@
+function showQRCode() {
+    const qrCodeHTML = '<a href=""><img src="../icons/appdownloadsection/en/softwarecompanycoltdqr-code.png" alt="QR-CODE" style="width: 164px; height: 52px; background-color: #000000; margin-right: 1px; border-left-style: solid; border-right-style: solid; border-right-width: 1px; border-top-style: solid; border-top-width: 1px; border-bottom-style: solid; border-bottom-width: 1px; border-color: #00a2e8; border-left-width: 1px; border-radius: 8px; pointer-events: none; -webkit-user-select: none; user-select: none;"></a>';
+    document.getElementById('qr-code-button').innerHTML = qrCodeHTML;
+}
+
+function showGooglePlay() {
+    const googlePlayHTML = '<a href="https://play.google.com"><img src="../icons/appdownloadsection/en/softwarecompanycoltdgetitongoogleplaystore.png" alt="Get it on Google Play" style="width: 164px; height: 52px; background-color: #000000; margin-left: 4px; border-left-style: solid; border-right-style: solid; border-right-width: 1px; border-top-style: solid; border-top-width: 1px; border-bottom-style: solid; border-bottom-width: 1px; border-color: #00a2e8; border-left-width: 1px; border-radius: 8px; pointer-events: none; -webkit-user-select: none; user-select: none;"></a>';
+    document.getElementById('google-play-button').innerHTML = googlePlayHTML;
+}
+
+function showAmazonAppstore() {
+    const amazonAppstoreHTML = '<a href="https://www.amazon.com/gp/mas/get/amazonapp"><img src="../icons/appdownloadsection/en/softwarecompanyavailableatamazonappstore.png" alt="Available at Amazon Appstore" style="width: 164px; height: 52px; background-color: #000000; margin-left: 4px; border-left-style: solid; border-right-style: solid; border-right-width: 1px; border-top-style: solid; border-top-width: 1px; border-bottom-style: solid; border-bottom-width: 1px; border-color: #00a2e8; border-left-width: 1px; border-radius: 8px; pointer-events: none; -webkit-user-select: none; user-select: none;"></a>';
+    document.getElementById('amazon-appstore-button').innerHTML = amazonAppstoreHTML;
+}
+
+function showAppStore() {
+    const appStoreHTML = '<a href="https://apps.apple.com"><img src="../icons/appdownloadsection/en/softwarecompanydownloadontheappstore.png" alt="Download on the App Store" style="width: 164px; height: 52px; background-color: #000000; margin-left: 4px; border-left-style: solid; border-right-style: solid; border-right-width: 1px; border-top-style: solid; border-top-width: 1px; border-bottom-style: solid; border-bottom-width: 1px; border-color: #00a2e8; border-left-width: 1px; border-radius: 8px; pointer-events: none; -webkit-user-select: none; user-select: none;"></a>';
+    document.getElementById('app-store-button').innerHTML = appStoreHTML;
+}
+
+function showMicrosoftStore() {
+    const microsoftStoreHTML = '<a href="https://store.microsoft.com/"><img src="../icons/appdownloadsection/en/softwarecompanycoltdgetitfrommicrosoft.png" alt="Get it from Microsoft" style="width: 164px; height: 52px; background-color: #000000; margin-left: 4px; border-left-style: solid; border-right-style: solid; border-right-width: 1px; border-top-style: solid; border-top-width: 1px; border-bottom-style: solid; border-bottom-width: 1px; border-color: #00a2e8; border-left-width: 1px; border-radius: 8px; pointer-events: none; -webkit-user-select: none; user-select: none;"></a>';
+    document.getElementById('microsoft-store-button').innerHTML = microsoftStoreHTML;
+}
+
+function detectPlatform() {
+    const userAgent = navigator.userAgent.toLowerCase();
+    
+    showQRCode(); // Always show QR code
+
+    // For Android
+    if (userAgent.includes('android')) {
+        showGooglePlay();
+        showAmazonAppstore();
+    }
+    // For Windows PC
+    else if (userAgent.includes('windows')) {
+        showMicrosoftStore();
+    }
+    // For iPhone or macOS
+    else if (userAgent.includes('iphone') || userAgent.includes('mac os')) {
+        showAppStore();
+    }
+}
+
+// Call the function when the DOM is fully loaded
+document.addEventListener('DOMContentLoaded', detectPlatform);

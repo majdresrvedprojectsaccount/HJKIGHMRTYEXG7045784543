@@ -1,0 +1,30 @@
+function loadHtmlContent() {
+
+    const filePath = 'external.html';
+
+    fetch(filePath)
+
+        .then(response => {
+
+            if (!response.ok) {
+
+                throw new 
+            }
+
+            return response.text();
+
+        })
+
+        .then(htmlContent => {
+            document.getElementById('content').innerHTML = htmlContent;
+
+        })
+        .catch(error => {
+
+            console.error('Error loading the HTML file:', error);
+
+        });
+
+}
+
+window.onload = loadHtmlContent;

@@ -1,0 +1,124 @@
+        function goToLink(selectElement) {
+            const links = {
+                id: [
+                    "../home/id/"
+                ],
+                de: [
+                    "../home/de/"
+                ],
+                en: [
+                    "../home/en/"
+                ],
+                es: [
+                    "../home/es/"
+                ],
+                fr: [
+                    "../home/fr/"
+                ],
+                it: [
+                    "../home/it/"
+                ],
+                pt: [
+                    "../home/pt/"
+                ],
+                vi: [
+                    "../home/vi/"
+                ],
+                tr: [
+                    "../home/tr/"
+                ],
+                ru: [
+                    "../home/ru/"
+                ],
+                hi: [
+                    "../home/hi/"
+                ],
+                ko: [
+                    "../home/ko/"
+                ],
+                ja: [
+                    "../home/ja/"
+                ],
+                zh: [
+                    "../home/zh/"
+                ],
+                ar: [
+                    "../home/ar/"
+                ],
+                th: [
+                    "../home/th/"
+                ],
+                he: [
+                    "../home/he/"
+                ],
+                nl: [
+                    "../home/nl/"
+                ],
+                cs: [
+                    "../home/cs/"
+                ],
+                el: [
+                    "../home/el/"
+                ],
+                pl: [
+                    "../home/pl/"
+                ],
+                ro: [
+                    "../home/ro/"
+                ],
+                sv: [
+                    "../home/sv/"
+                ],
+                ga: [
+                    "../home/ga/"
+                ],
+                is: [
+                    "../home/is/"
+                ],
+                hu: [
+                    "../home/hu/"
+                ],
+                kk: [
+                    "../home/kk/"
+                ],
+                uz: [
+                    "../home/uz/"
+                ],
+                bg: [
+                    "../home/bg/"
+                ],
+                hr: [
+                    "../home/hr/"
+                ],
+                da: [
+                    "../home/da/"
+                ],
+                et: [
+                    "../home/et/"
+                ],
+                fi: [
+                    "../home/fi/"
+                ],
+                lv: [
+                    "../home/lv/"
+                ],
+                lt: [
+                    "../home/it/"
+                ],
+                nb: [
+                    "../home/nb/"
+                ],
+                sk: [
+                    "../home/sk/"
+                ],
+                sl: [
+                    "../home/sl/"
+                ]
+            };
+
+            const selectedOption = selectElement.value;
+            if (selectedOption !== "") {
+                const randomLink = links[selectedOption][Math.floor(Math.random() * links[selectedOption].length)];
+                window.location.href = randomLink;
+            }
+        }

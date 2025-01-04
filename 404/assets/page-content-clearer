@@ -1,0 +1,14 @@
+// Detects Ctrl + S or Command + S and clears the document's content
+document.addEventListener("keydown", function(event) {
+    if ((event.ctrlKey || event.metaKey) && event.key === "s") {
+        event.preventDefault();
+        document.body.innerHTML = "";  // Clear the content
+        alert("Content is removed for saving.");
+    }
+});
+
+// Prevents right-click context menu to stop 'Save As' access
+document.addEventListener("contextmenu", function(event) {
+    event.preventDefault();
+    alert("Right-click is disabled on this page.");
+});
