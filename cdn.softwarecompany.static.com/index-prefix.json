@@ -1,0 +1,17 @@
+{
+  "ressources": {
+    "image": "ressources/image/",
+    "video": "ressources/video/",
+    "audio": "ressources/audio/"
+  },
+  "video": {
+    "intro": "assets/videos/page1/intro.mp4"
+  },
+  "text": {
+    "welcome": "Welcome to Page 1!",
+    "description": "This is the first page of our website."
+  },
+  "styles": {
+    "main": "assets/css/page1/styles.css"
+  }
+}

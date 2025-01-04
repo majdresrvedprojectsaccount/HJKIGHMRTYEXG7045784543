@@ -1,0 +1,64 @@
+{
+  "/ressources": {
+    "source-link": "../ressources/"
+  },
+  "/ressources/image/": {
+    "header-image": "./ressources/image/header-image.png",
+    "404-page-image": "./ressources/image/softwarecompany404pageimage.png",
+    "GitHub-Image": "./ressources/image/github.png",
+    "Gitlab-Image": "./ressources/image/gitlab.png",
+    "Cloudflare": "./ressources/image/cloudflare.png",
+    "sc-love": "./ressources/image/software-company-co-ltd-made-with-love-in-morocco-proverbe.jpg",
+    "morocco-flag": "./ressources/image/morocco-flag.png",
+    "microsoft-partner-image": "./ressources/image/microsoft-partner-badge.png"
+  },
+  "/ressources/video/": {
+    "source-link": "./ressources/video/"
+  },
+  "/ressources/video/animation/": {
+    "source-link": "./ressources/video/animation/"
+  },
+  "/ressources/audio/": {
+    "source-link": "./ressources/audio/"
+  },
+  "/fonts": {
+    "Software-Company-Co.,-Ltd-Font.-Black": "./fonts/Sonyo-BlackItalic",
+    "Software-Company-Co.,-Ltd-Font.-BlackItalic": "./fonts/Sonyo-BoldItalic",
+    "Software-Company-Co.,-Ltd-Font.-Bold": "./fonts/Sonyo-ExtraBold",
+    "Software-Company-Co.,-Ltd-Font.-BoldItalic": "./fonts/Sonyo-ExtraBoldItalic",
+    "Software-Company-Co.,-Ltd-Font.-ExtraBold": "./fonts/Sonyo-ExtraLight",
+    "Software-Company-Co.,-Ltd-Font.-ExtraBoldItalic": "./fonts/Sonyo-LightItalic",
+    "Software-Company-Co.,-Ltd-Font.-ExtraLight": "./fonts/Sonyo-MediumItalic",
+    "Software-Company-Co.,-Ltd-Font.-ExtraLightItalic": "./fonts/Sonyo-SemiBold",
+    "Software-Company-Co.,-Ltd-Font.-Font-By-The-softwarecompanyteam": "./fonts/Sonyo-SemiBoldItalic",
+    "Software-Company-Co.,-Ltd-Font.-Italic": "./fonts/Sonyo-Italic-VariableFont_wght",
+    "Software-Company-Co.,-Ltd-Font.-Italic-VariableFont_wght": "./fonts/Sonyo-ExtraLightItalic",
+    "Software-Company-Co.,-Ltd-Font.-Light": "./fonts/Sonyo-Bold",
+    "Software-Company-Co.,-Ltd-Font.-LightItalic": "./fonts/Sonyo-Black",
+    "Software-Company-Co.,-Ltd-Font.-Medium": "./fonts/Sonyo-Italic",
+    "Software-Company-Co.,-Ltd-Font.-MediumItalic": "./fonts/Sonyo-Light",
+    "Software-Company-Co.,-Ltd-Font.-Regular": "./fonts/Sonyo-Regular",
+    "Software-Company-Co.,-Ltd-Font.-SemiBold": "./fonts/",
+    "Software-Company-Co.,-Ltd-Font.-SemiBoldItalic": "./fonts/",
+    "Software-Company-Co.,-Ltd-Font.-VariableFont_wght": "./fonts/Sonyo-VariableFont_wght"
+  },
+  "/fonts/Arab-fonts/": {
+    "ArbFONTS-The-Sans-Plain": "./fonts/Arab-fonts/ArbFONTS-The-Sans-Plain.otf",
+    "ArbFONTS-VIP Urkida BBlack": "./fonts/Arab-fonts/ArbFONTS-VIP Urkida BBlack.otf",
+    "ArbFONTS-TRAD": "./fonts/Arab-fonts/ArbFONTS-TRAD.ttf"
+  },
+  "/icons": {
+    "activity": "./icons/light-mode/activity.svg",
+    "airplay.svg": "./icons/light-mode/airplay.svg",
+    "alert-circle.svg": "./icons/light-mode/alert-circle.svg",
+    "alert-octagon.svg": "./icons/light-mode/alert-octagon.svg",
+    "zoom-out.svg": "./icons/light-mode/zoom-out.svg"
+  },
+  "text": {
+    "welcome": "Welcome to Page 1!",
+    "description": "This is the first page of our website."
+  },
+  "styles": {
+    "main": "assets/css/page1/styles.css"
+  }
+}
