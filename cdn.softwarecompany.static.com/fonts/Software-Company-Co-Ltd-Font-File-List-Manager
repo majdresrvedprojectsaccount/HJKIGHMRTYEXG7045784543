@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'Sonyo-Black';
+  src: url(./Sonyo-Black.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Sonyo-BlackItalic';
+  src: url(./Sonyo-BlackItalic.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Sonyo-Bold';
+  src: url(./Sonyo-Bold.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Sonyo-BoldItalic';
+  src: url(./Sonyo-BoldItalic.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Sonyo-ExtraBold';
+  src: url(./Sonyo-ExtraBold.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Sonyo-ExtraBoldItalic';
+  src: url(./Sonyo-ExtraBoldItalic.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Sonyo-ExtraLight';
+  src: url(./Sonyo-ExtraLight.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Sonyo-ExtraLightItalic';
+  src: url(./Sonyo-ExtraLightItalic.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Sonyo-Italic';
+  src: url(./Sonyo-Italic.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Sonyo-Italic-VariableFont';
+  src: url(./Sonyo-Italic-VariableFont_wght.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Sonyo-Light';
+  src: url(./Sonyo-Light.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Sonyo-LightItalic';
+  src: url(./Sonyo-LightItalic.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Sonyo-Medium';
+  src: url(./Sonyo-Medium.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Sonyo-MediumItalic';
+  src: url(./Sonyo-MediumItalic.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Sonyo-Regular';
+  src: url(./Sonyo-Regular.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Sonyo-SemiBold';
+  src: url(./Sonyo-SemiBold.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Sonyo-SemiBoldItalic';
+  src: url(./Sonyo-SemiBoldItalic.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Sonyo-VariableFont_wght';
+  src: url(Sonyo-VariableFont_wght.ttf) format('ttf');
+}
