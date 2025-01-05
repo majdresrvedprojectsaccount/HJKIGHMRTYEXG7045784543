@@ -15,7 +15,7 @@
     line-height:1.15;
     overflow:hidden;
     -webkit-text-size-adjust:100%;
-    font-family:"proxima-regular","Software-Company-Co.,-Ltd.-Font-Bold",sans-serif;
+    font-family: "Software-Company-Co.,-Ltd.-Font-Bold";
     font-weight:400
 }
 
@@ -354,7 +354,7 @@ path {
 }
 @font-face {
  font-family:'Software-Company-Co.,-Ltd.-Font-Bold';
- src:url(../cdn.softwarecompany.static.com/fonts/Sonyo-Bold) format('truetype'),
+ src:url(../../cdn.softwarecompany.static.com/fonts/Sonyo-Bold) format('truetype'),
  url(../cdn.softwarecompany.static.com/fonts/Sonyo-Bold) format('truetype'),
  url(https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok_fonts/TikTokFont-Regular.otf?_default_font=1&v=2) format('opentype');
  font-weight:normal;
