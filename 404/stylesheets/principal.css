@@ -2463,14 +2463,14 @@ header .logo-&-navbar p a {
     margin-bottom: 2px;
 }
 
-@media (max-width: 1920px) {
+@media (max-width: 1349px) {
     .page-finding-section .page-middle-part {
         display: flex;
         flex-direction: row;
         align-content: center;
         align-items: center;
-        margin-left: 713px;
-        margin-right: 713px;
+        margin-left: 432px;
+        margin-right: 432px;
     }
 }
 
@@ -2481,5 +2481,16 @@ header .logo-&-navbar p a {
         align-content: center;
         align-items: center;
         margin-left: 555px;
+    }
+}
+
+@media (max-width: 1920px) {
+    .page-finding-section .page-middle-part {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        margin-left: 713px;
+        margin-right: 713px;
     }
 }
