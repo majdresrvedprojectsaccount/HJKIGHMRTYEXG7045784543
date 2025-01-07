@@ -364,7 +364,7 @@ input:checked + .slider:before {
   max-width: 400px;
   color: inherit;
 }
-.container img {
+.container #LogO {
   height: 60px;
   margin-left: 170px;
   margin-bottom: 5px;
