@@ -489,6 +489,16 @@ h2 {
   color: #454747;
   outline: none;
 }
+.form-group input:hover {
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  background-color: transparent;
+  box-sizing: border-box;
+  border: 1px solid #00a2e8;
+  border-radius: 4px;
+  color: #454747;
+  outline: none;
+}
 .form-group button {
   background-color: #00a2e8;
   color: white;
