@@ -1,12 +1,4 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign in - Software Company Co., Ltd.</title>
-    <link href="./stylesheets/stylesheet.css" rel="stylesheet" type="text/css">
-    <link href="../root/favicon/Software-Company-New-Logo-with-no-background-minimal.png" type="icon" rel="chortcut icon">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4MJRSK2HS8"></script>
-    <script>
+﻿<!DOCTYPE html><html><head><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Sign in - Software Company Co., Ltd.</title><link href="./stylesheets/stylesheet.css" rel="stylesheet" type="text/css"><link href="../root/favicon/Software-Company-New-Logo-with-no-background-minimal.png" type="icon" rel="chortcut icon"><script async src="https://www.googletagmanager.com/gtag/js?id=G-4MJRSK2HS8"></script><script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
@@ -22,6 +14,7 @@
     <script defer type="module" src="./socialauthserver/github-social-auth-script.js"></script>
     <script defer type="module" src="./socialauthserver/apple-social-auth-script.js"></script>
     <script defer src="./auth/action-shecker.js"></script>
+    <script>  if ('serviceWorker' in navigator) { navigator.serviceWorker.register('../sw.js') .then(() => console.log('Service Worker registered')) .catch((error) => console.error('Service Worker registration failed:', error)); } </script>
     <link rel="manifest" href="./manifest/index.json">
 </head>
 <body class="light-mode">
