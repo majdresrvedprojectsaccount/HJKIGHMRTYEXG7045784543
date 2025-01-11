@@ -1,0 +1,502 @@
+.accountwindow {
+    display: block;
+    width: 250px;
+    height: 252px;
+    padding: 10px;
+    background-color: rgba(244, 244, 244, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    display: none;  
+}
+
+.accountwindow .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;  
+}
+
+
+.accountwindow .header .accountwrappersec {
+    display: flex;
+    flex-direction: row;  
+}
+
+.accountwindow .header .accountwrappersec .accountprofile img {
+    width: 85px;
+    height: 85px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.accountwindow .header .accountwrappersec .accountinfo .titlesec h4 {
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.accountwindow .header .accountwrappersec .accountinfo .desciptionpargrph p {
+    color: #454747;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.accountwindow .body .activebuttons .firstpart {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    border-top-style: solid;
+   border-top-width: 1px;
+   border-color: #45474745;
+    padding-top: 10px;
+}
+
+.accountwindow .body .activebuttons .secondpart {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #45474745;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.accountwindow .body .activebuttons .firstpart .logindivbutton #login {
+    width: 120px;
+    height: 36px;
+    border: solid 1px;
+    border-color: #00a2e8;
+    border-radius: 5px;
+    color: #f4f4f4;
+    background-color: #00a2e8;
+    font-size: 14px;
+    margin-right: 10px;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+}
+
+.accountwindow .body .activebuttons .firstpart .logindivbutton #login:hover {
+    width: 120px;
+    height: 36px;
+    cursor: pointer;
+    border: solid 1px;
+    border-color: #00a2e8;
+    border-radius: 5px;
+    color: #00a2e8;
+    background-color: transparent;
+    font-size: 14px;
+    margin-right: 10px;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+}
+
+.accountwindow .body .activebuttons .firstpart .logindivbutton #login:active {
+    width: 120px;
+    height: 36px;
+    cursor: wait;
+    border: solid 1px;
+    border-color: #00a2e8;
+    border-radius: 5px;
+    color: #00a2e8;
+    background-color: transparent;
+    font-size: 14px;
+    margin-right: 10px;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+}
+
+.accountwindow .body .activebuttons .firstpart .logindivbutton #Logout {
+    width: 120px;
+    height: 36px;
+    border: solid 1px;
+    border-color: #f40000;
+    border-radius: 5px;
+    color: #f4f4f4;
+    background-color: #f40000;
+    font-size: 14px;
+    margin-right: 10px;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+}
+
+.accountwindow .body .activebuttons .firstpart .logindivbutton #Logout:hover {
+    width: 120px;
+    height: 36px;
+    cursor: pointer;
+    border: solid 1px;
+    border-color: #f40000;
+    border-radius: 5px;
+    color: #f40000;
+    background-color: transparent;
+    font-size: 14px;
+    margin-right: 10px;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+}
+
+.accountwindow .body .activebuttons .firstpart .logindivbutton #Logout:active {
+    width: 120px;
+    height: 36px;
+    cursor: wait;
+    border: solid 1px;
+    border-color: #f40000;
+    border-radius: 5px;
+    color: #f40000;
+    background-color: transparent;
+    font-size: 14px;
+    margin-right: 10px;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+}
+
+.accountwindow .body .activebuttons .secondpart .logindivbutton #restart {
+    width: 120px;
+    height: 36px;
+    border: solid 1px;
+    border-color: #207257;
+    border-radius: 5px;
+    color: #f4f4f4;
+    background-color: #207257;
+    font-size: 14px;
+    margin-right: 10px;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+}
+
+.accountwindow .body .activebuttons .secondpart .logindivbutton #restart:hover {
+    width: 120px;
+    height: 36px;
+    cursor: pointer;
+    border: solid 1px;
+    border-color: #207257;
+    border-radius: 5px;
+    color: #207257;
+    background-color: transparent;
+    font-size: 14px;
+    margin-right: 10px;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+}
+
+.accountwindow .body .activebuttons .secondpart .logindivbutton #restart:active {
+    width: 120px;
+    height: 36px;
+    cursor: wait;
+    border: solid 1px;
+    border-color: #207257;
+    border-radius: 5px;
+    color: #207257;
+    background-color: transparent;
+    font-size: 14px;
+    margin-right: 10px;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+}
+
+.accountwindow .body .activebuttons .secondpart .logindivbutton #quit {
+    width: 120px;
+    height: 36px;
+    border: solid 1px;
+    border-color: #f40000;
+    border-radius: 5px;
+    color: #f4f4f4;
+    background-color: #f40000;
+    font-size: 14px;
+    margin-right: 10px;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+}
+
+.accountwindow .body .activebuttons .secondpart .logindivbutton #quit:hover {
+    width: 120px;
+    height: 36px;
+    cursor: pointer;
+    border: solid 1px;
+    border-color: #f40000;
+    border-radius: 5px;
+    color: #f40000;
+    background-color: transparent;
+    font-size: 14px;
+    margin-right: 10px;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+}
+
+.accountwindow .body .activebuttons .secondpart .logindivbutton #quit:active {
+    width: 120px;
+    height: 36px;
+    cursor: wait;
+    border: solid 1px;
+    border-color: #f40000;
+    border-radius: 5px;
+    color: #f40000;
+    background-color: transparent;
+    font-size: 14px;
+    margin-right: 10px;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+}
+
+.accountwindow .body .activebuttons1 .joinererdiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.accountwindow .body .activebuttons1 .joinererdiv input {
+    height: 28px;
+    width: 208px;
+    outline: none;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-color: #454747;
+    border-radius: 5px;
+    border: 5px;
+    padding-left: 8px;
+    background-color: rgba(71, 71, 71, 0.3);
+    backdrop-filter: blur(10px);
+    margin-right: 5px;
+}
+
+.accountwindow .body .activebuttons1 .joinererdiv input::placeholder {
+    font-size: 12px;
+    color: #454747;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+}
+
+.accountwindow .body .activebuttons1 .joinererdiv button {
+    height: 32px;
+    width: 32px;
+    margin-right: 5px;
+    border: solid 0px;
+    background-color: transparent;
+}
+
+.accountwindow .body .activebuttons1 .joinererdiv button img {
+    height: 28px;
+    width: 28px;
+    padding: 1px;
+    border: solid 0px;
+    background-color: transparent;
+}
+
+.startwindow {
+    display: none;
+    height: 217px;
+    width: 150px;
+    background-color: rgba(244, 244, 244, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.startwindow .joiner .displayitems {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.startwindow .joiner .displayitems button {
+    width: 150px;
+    height: 26px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    padding-left: 8px;
+    background-color: transparent;
+    border-color: #45474745;
+    text-align: left;
+    color: #000;
+    font-size: 12px;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+}
+
+.startwindow .joiner .displayitems button:hover {
+    width: 150px;
+    height: 26px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    padding-left: 8px;
+    background-color: rgba(0, 132, 232, 0.3);
+    border-color: transparent;
+    text-align: left;
+    color: #f4f4f4;
+    font-size: 12px;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+}
+
+.startwindow .joiner .displayitems button:active {
+    width: 150px;
+    height: 26px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    padding-left: 8px;
+    background-color: transparent;
+    border-color: #00a2e8;
+    text-align: left;
+    color: #00a2e8;
+    font-size: 12px;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+}
+
+.startwindow .joiner .section1 {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin-top: 4px;
+}
+
+.startwindow .joiner .section1 button {
+    width: 150px;
+    height: 26px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    padding-left: 8px;
+    background-color: transparent;
+    border-color: #45474745;
+    text-align: left;
+    color: #000;
+    font-size: 12px;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+}
+
+.startwindow .joiner .section1 #login1:hover {
+    width: 150px;
+    height: 26px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    padding-left: 8px;
+    background-color: rgba(0, 132, 232, 0.3);
+    border-color: transparent;
+    text-align: left;
+    color: #f4f4f4;
+    font-size: 12px;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+}
+
+.startwindow .joiner .section1 button:hover {
+    width: 150px;
+    height: 26px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    padding-left: 8px;
+    background-color: rgba(244, 0, 0, 0.3);
+    border-color: transparent;
+    text-align: left;
+    color: #f4f4f4;
+    font-size: 12px;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+}
+
+.startwindow .joiner .section2 {
+    margin-top: 4px;
+}
+
+.startwindow .joiner .section2 button {
+    width: 150px;
+    height: 26px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    padding-left: 8px;
+    background-color: transparent;
+    border-color: #45474745;
+    text-align: left;
+    color: #000;
+    font-size: 12px;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+}
+
+.startwindow .joiner .section2 button:hover {
+    width: 150px;
+    height: 26px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    padding-left: 8px;
+    background-color: rgba(0, 244, 0, 0.3);
+    border-color: transparent;
+    text-align: left;
+    color: #f4f4f4;
+    font-size: 12px;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+}
+
+.startwindow .joiner .section2 #quit1:hover {
+    width: 150px;
+    height: 26px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    padding-left: 8px;
+    background-color: rgba(244, 0, 0, 0.3);
+    border-color: transparent;
+    text-align: left;
+    color: #f4f4f4;
+    font-size: 12px;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+}

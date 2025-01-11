@@ -1,0 +1,321 @@
+.header-section .right-side .buttons button {
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+    color: #000000;
+    text-decoration: none;
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 4px;
+    margin-right: 8px;
+    height: 21px;
+    background-color: transparent;
+    border-left-style: solid;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-right-style: solid;
+    border-right-width: 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+    border-color: transparent;
+}
+
+.vscode-window-popup .vscode-header-window-popup {
+    height: 19px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: rgba(244, 244, 244, 0.3);
+    backdrop-filter: blur(10px);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #4547471c;
+}
+
+.search-window-popup .search-header-window-popup {
+    height: 19px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: rgba(244, 244, 244, 0.3);
+    backdrop-filter: blur(10px);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #4547471c;
+}
+
+.search-window-popup .search-body-window-popup {
+    background-color: rgba(244, 244, 244, 0.3);
+    height: 600px;
+    width: 1100px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-color: transparent;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    backdrop-filter: blur(10px);
+}
+
+.vscode-window-popup .vscode-body-window-popup iframe {
+    border-left-style: solid;
+    border-left-width: 0px;
+    border-right-style: solid;
+    height: 100%;
+    width: 100%;
+    border-top-style: solid;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+}
+
+.firefox-window-popup .firefox-header-window-popup {
+    height: 19px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: rgba(244, 244, 244, 0.3);
+    backdrop-filter: blur(10px);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #4547471c;
+}
+
+.search-window-popup iframe {
+    background-color: rgba(244, 244, 244, 0.3);
+    height: 600px;
+    width: 1100px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-color: transparent;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    backdrop-filter: blur(10px);
+}
+
+.right-click-window-popup .right-click-body-window-popup {
+    width: 150px;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+    background-color: rgba(244, 244, 244, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+}
+
+.right-click-window-popup .right-click-body-window-popup .display-section button {
+    height: 29px;
+    width: 100%;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 4px;
+    color: #000;
+    font-size: 12px;
+    text-align: left;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+    background-color: transparent;
+    border-color: #4547473d;
+    margin-bottom: 4px;
+}
+
+.right-click-window-popup .right-click-body-window-popup .display-section button:hover {
+    height: 29px;
+    width: 100%;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 4px;
+    color: #ffffff;
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+    background-color: rgba(0, 162, 232, 0.25);
+    backdrop-filter: blur(10px);
+    border-color: transparent;
+    margin-bottom: 4px;
+}
+
+.right-click-window-popup .right-click-body-window-popup .display-section {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    text-align: left;
+}
+
+
+.activity-section {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.right-click-window-popup .right-click-body-window-popup .activity-section button {
+    height: 29px;
+    width: 100%;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px; 
+    border-radius: 4px;
+    color: #000;
+    font-size: 12px;
+    text-align: left;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+    background-color: transparent;
+    border-color: #4547473d;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.right-click-window-popup .right-click-body-window-popup .settings-section button {
+    height: 29px;
+    width: 100%;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px; 
+    border-radius: 4px;
+    color: #000;
+    font-size: 12px;
+    text-align: left;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+    background-color: transparent;
+    border-color: #4547473d;
+    margin-top: 4px;
+}
+
+.right-click-window-popup .right-click-body-window-popup .settings-section button:hover {
+    height: 29px;
+    width: 100%;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: left;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+    background-color: rgba(0, 162, 232, 0.25);
+    backdrop-filter: blur(10px);
+    border-color: transparent;
+}
+
+.right-click-window-popup .right-click-body-window-popup .activity-section button:hover {
+    height: 29px;
+    width: 100%;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: left;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+    background-color: rgba(0, 162, 232, 0.25);
+    backdrop-filter: blur(10px);
+    border-color: transparent;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}

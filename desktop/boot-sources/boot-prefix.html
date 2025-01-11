@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta content="hi this is my account profile page">
+  <title>Desktop - Software Company Co., Ltd.</title>
+  <link href="../scassets/[BOOT]-prefix/boot.css" rel="stylesheet">
+</head>
+<body ondragstart="return false;" oncontextmenu="return false;" onmousedown="return false; pointer-events: none; -webkit-user-select: none; user-select: none;">
+  <div class="body-content">
+    <div class="logo-section">
+      <img src="../page-images/software-company-logo.png" ondragstart="return false;" oncontextmenu="return false;" onmousedown="return false; pointer-events: none; -webkit-user-select: none; user-select: none;"></img>
+    </div>
+    <p>Setting Up Your Web PC Enviroment.</p>
+    <div class="loader"></div>
+  </div>
+  <script>
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'F12') {
+        event.preventDefault();
+    }
+    if (event.ctrlKey && event.shiftKey && event.key === 'I') {
+        event.preventDefault();
+    }
+});
+
+document.addEventListener("keydown", function(event) {
+    if ((event.ctrlKey || event.metaKey) && event.key === "s") {
+        event.preventDefault();
+        alert("Saving is disabled on this page.");
+    }
+});
+  </script>
+</body>
+</html>

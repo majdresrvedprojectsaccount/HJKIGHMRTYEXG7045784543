@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta content="hi this is my account profile page">
+  <meta property="og:url" content="https://desktop.softwarecompanycoltd.com/" data-rh="true">
+  <meta name="viewport" content="width=device-width,user-scalable=no,minimum-scale=1.0, maximum-scale=1.0"/>
+  <!-- Software Company Web App Content tags -->
+  <meta name="mobile-web-app-capable" content="yes"/>
+  <meta name="application-name" content="Desktop - Software Company Co., Ltd."/>
+  <link rel="manifest" href="../manifest/index.json">
+  <title>Desktop - Software Company Co.., Ltd..</title>
+  <link href="../page-images/software-company-logo.png" rel="chortcut icon" type="icon">
+  <link href="../scscassets/assets/BOOT/boot.css" rel="stylesheet">
+  <link href="../stylesheets/stylesheet.css" rel="stylesheet">
+  <link href="../stylesheets/pc-windows-style.css" rel="stylesheet">
+  <link rel="stylesheet" href="../stylesheets/system~stylesheet.css">
+  <script defer src="../system/Sc-pc-System-Script.js"></script>
+</head>
+<body id="selection-container">
+  <header style="cursor: normal;">
+    <div class="header-section">
+      <div class="left-side">
+        <div class="logo-button">
+          <button id="hideshowButton1">
+            <img src="../page-images/software-company-logo.png" id="hideshowButton1" ondragstart="return false;" oncontextmenu="return false;" onmousedown="return false; pointer-events: none; -webkit-user-select: none; user-select: none;"></img>
+          </button>
+        </div>
+        <div class="buttons">
+          <button href="">File Explorer</button>
+        </div>
+        <div class="buttons">
+          <button href="">File</button>
+        </div>
+        <div class="buttons">
+          <button href="">Edit</button>
+        </div>
+        <div class="buttons">
+          <button href="">View</button>
+        </div>
+        <div class="buttons">
+          <button href="">Go</button>
+        </div>
+        <div class="buttons">
+          <button href="">Window</button>
+        </div>
+        <div class="buttons">
+          <button href="">Link</button>
+        </div>
+        <div class="buttons">
+          <button href="">Help</button>
+        </div>
+      </div>
+    </div>
+    <div class="right-side" id="rightareaside">
+      <div class="icons">
+        <button>
+          <img src="../scassets/assets/header-icons/notification.png" ondragstart="return false;" oncontextmenu="return false;" onmousedown="return false; pointer-events: none; -webkit-user-select: none; user-select: none;"></img>
+        </button>
+      </div>
+      <div class="buttons">
+        <button id="local-date">Loading..</button>
+      </div>
+      <div class="buttons">
+        <button class="clock" id="clock">Loading..</button>
+      </div>
+    </div>
+  </header>
+
+
+  <div class="startwindow" id="startwindow">
+    <div class="joiner">
+      <div class="displayitems">
+        <button>PC info</button>
+        <button>settings</button>
+        <button>recent activity</button>
+      </div>
+      <div class="section1">
+        <button id="login1">login</button>
+        <button>logout</button>      
+      </div>
+      <div class="section2">
+        <button>restart</button>
+        <button id="quit1">quit</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="right-click-window-popup" id="context-menu">
+      <div class="right-click-body-window-popup">
+        <div class="display-section" id="item1">
+          <button>view</button>
+          <button>sort by</button>
+          <button>refresh</button>
+        </div>
+        <div class="activity-section" id="item2">
+          <button>new</button>       
+        </div>
+        <div class="settings-section" id="item3">
+          <button>display settings</button>
+          <button>personalize</button>
+        </div>
+      </div>
+  </div>
+
+  <div class="notification-badge" id="notification">
+    <img src="../page-images/sc-settings.png">
+    <div class="text-sec8">
+      <div class="title-sec">
+        <h4>User Expirerience.
+          <button onclick="closeDiv()">
+            &times;
+          </button>
+        </h4>
+        <p>Click on F11 to enter full screen mode for more better UX/UI Expirerience.<a></a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="accountwindow" id="account">
+    <div class="header">
+      <div class="accountwrappersec">
+        <div class="accountprofile">
+          <img src="../scassets/assets/taskbar-icons/user-account.png" alt="#">
+        </div>
+        <div class="accountinfo">
+          <div class="titlesec">
+            <h4>Invited</h4>
+          </div>
+          <div class="desciptionpargrph">
+            <p>Your in Invited Mode So That You Can Not Access Some New Features.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="body">
+      <div class="activebuttons">
+        <div class="firstpart">
+          <div class="logindivbutton">
+            <button id="login">Login</button>
+          </div>
+          <div class="logindivbutton">
+            <button id="Logout">Logout</button>
+          </div>
+        </div>
+        <div class="secondpart">
+          <div class="logindivbutton">
+            <button id="restart">Restart</button>
+          </div>
+          <div class="logindivbutton">
+            <button id="quit">Quit</button>
+          </div>
+        </div>
+      </div>
+      <div class="activebuttons1">
+        <div class="joinererdiv">
+          <input type="text" placeholder="Find Something...">
+          <button id="settings"><img src="../scassets/assets/taskbar-icons/settings.png" ondragstart="return false;" oncontextmenu="return false;" onmousedown="return false; pointer-events: none; -webkit-user-select: none; user-select: none;"></img></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer style="cursor: normal;">
+    <div class="footer-section">
+      <img src="../scassets/assets/taskbar-icons/user-account.png" id="hideshowButton" ondragstart="return false;" oncontextmenu="return false;" onmousedown="return false; pointer-events: none; -webkit-user-select: none; user-select: none;"><div class="tooltip-ping">This is a tooltip-ping!</div></img>
+      <img src="../scassets/assets/taskbar-icons/search.png" ondragstart="return false;" oncontextmenu="return false;" onmousedown="return false; pointer-events: none; -webkit-user-select: none; user-select: none;"><div class="tooltip-ping">This is a tooltip-ping!</div></img>
+      <img src="../scassets/assets/taskbar-icons/explorer.png" ondragstart="return false;" oncontextmenu="return false;" onmousedown="return false; pointer-events: none; -webkit-user-select: none; user-select: none;"><div class="tooltip-ping">This is a tooltip-ping!</div></img>
+      <img src="../scassets/assets/taskbar-icons/chrome.png" ondragstart="return false;" oncontextmenu="return false;" onmousedown="return false; pointer-events: none; -webkit-user-select: none; user-select: none;"><div class="tooltip-ping">This is a tooltip-ping!</div></img>
+      <img src="../scassets/assets/taskbar-icons/firefox.png" ondragstart="return false;" oncontextmenu="return false;" onmousedown="return false; pointer-events: none; -webkit-user-select: none; user-select: none;"><div class="tooltip-ping">This is a tooltip-ping!</div></img>
+      <img src="../scassets/assets/taskbar-icons/opera.png" ondragstart="return false;" oncontextmenu="return false;" onmousedown="return false; pointer-events: none; -webkit-user-select: none; user-select: none;"><div class="tooltip-ping">This is a tooltip-ping!</div></img>
+      <img src="../scassets/assets/taskbar-icons/tor.png" ondragstart="return false;" oncontextmenu="return false;" onmousedown="return false; pointer-events: none; -webkit-user-select: none; user-select: none;"><div class="tooltip-ping">This is a tooltip-ping!</div></img>
+      <img src="../scassets/assets/taskbar-icons/github.png" ondragstart="return false;" oncontextmenu="return false;" onmousedown="return false; pointer-events: none; -webkit-user-select: none; user-select: none;"><div class="tooltip-ping">This is a tooltip-ping!</div></img>
+      <img src="../scassets/assets/taskbar-icons/vscode.png" ondragstart="return false;" oncontextmenu="return false;" onmousedown="return false; pointer-events: none; -webkit-user-select: none; user-select: none;"><div class="tooltip-ping">This is a tooltip-ping!</div></img>
+      <img src="../scassets/assets/taskbar-icons/message.png" ondragstart="return false;" oncontextmenu="return false;" onmousedown="return false; pointer-events: none; -webkit-user-select: none; user-select: none;"><div class="tooltip-ping">This is a tooltip-ping!</div></img>
+      <img src="../scassets/assets/taskbar-icons/mail.png" ondragstart="return false;" oncontextmenu="return false;" onmousedown="return false; pointer-events: none; -webkit-user-select: none; user-select: none;"><div class="tooltip-ping">This is a tooltip-ping!</div></img>
+      <img src="../scassets/assets/taskbar-icons/maps.png" ondragstart="return false;" oncontextmenu="return false;" onmousedown="return false; pointer-events: none; -webkit-user-select: none; user-select: none;"><div class="tooltip-ping">This is a tooltip-ping!</div></img>
+      <img src="../scassets/assets/taskbar-icons/gallery.png" ondragstart="return false;" oncontextmenu="return false;" onmousedown="return false; pointer-events: none; -webkit-user-select: none; user-select: none;"><div class="tooltip-ping">This is a tooltip-ping!</div></img>
+      <img src="../scassets/assets/taskbar-icons/video.png" ondragstart="return false;" oncontextmenu="return false;" onmousedown="return false; pointer-events: none; -webkit-user-select: none; user-select: none;"><div class="tooltip-ping">This is a tooltip-ping!</div></img>
+      <img src="../scassets/assets/taskbar-icons/audio.png" ondragstart="return false;" oncontextmenu="return false;" onmousedown="return false; pointer-events: none; -webkit-user-select: none; user-select: none;"><div class="tooltip-ping">This is a tooltip-ping!</div></img>
+      <img src="../scassets/assets/taskbar-icons/calendar.png" ondragstart="return false;" oncontextmenu="return false;" onmousedown="return false; pointer-events: none; -webkit-user-select: none; user-select: none;"><div class="tooltip-ping">This is a tooltip-ping!</div></img>
+      <img src="../scassets/assets/taskbar-icons/contact.png" ondragstart="return false;" oncontextmenu="return false;" onmousedown="return false; pointer-events: none; -webkit-user-select: none; user-select: none;"><div class="tooltip-ping">This is a tooltip-ping!</div></img>
+      <img src="../scassets/assets/taskbar-icons/clipboard.png" ondragstart="return false;" oncontextmenu="return false;" onmousedown="return false; pointer-events: none; -webkit-user-select: none; user-select: none;"><div class="tooltip-ping">This is a tooltip-ping!</div></img>
+      <img src="../scassets/assets/taskbar-icons/settings.png" ondragstart="return false;" oncontextmenu="return false;" onmousedown="return false; pointer-events: none; -webkit-user-select: none; user-select: none;"><div class="tooltip-ping">This is a tooltip-ping!</div></img>
+      <img src="../scassets/assets/taskbar-icons/terminal.png" ondragstart="return false;" oncontextmenu="return false;" onmousedown="return false; pointer-events: none; -webkit-user-select: none; user-select: none;"><div class="tooltip-ping">This is a tooltip-ping!</div></img>
+      <img src="../scassets/assets/taskbar-icons/downloads.png" ondragstart="return false;" oncontextmenu="return false;" onmousedown="return false; pointer-events: none; -webkit-user-select: none; user-select: none;"><div class="tooltip-ping">This is a tooltip-ping!</div></img>
+      <img src="../scassets/assets/taskbar-icons/trash.png" ondragstart="return false;" oncontextmenu="return false;" onmousedown="return false; pointer-events: none; -webkit-user-select: none; user-select: none;"><div class="tooltip-ping">This is a tooltip-ping!</div></img>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desktop - Software Company Co., Ltd.</title>
+    <link href="../software-company-logo.png" rel="chortcut icon" type="icon">
+    <link href="../BOOT/boot.css" rel="stylesheet">
+    <link href="../pc-windows-style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../stylesheets/styles.css">
+</head>
+<body>
+    <div class="display-item" id="item1">
+        <iframe src="./boot-prefix.html" style="display: block; width: 100%; height: 100%; border: 0px;"></iframe>
+    </div>
+    <div class="display-item" id="item2">
+        <iframe src="./boot.html" style="display: block; width: 100%; height: 100%; border: 0px;"></iframe>
+    </div>
+    <div class="display-item" id="item3">
+        <iframe src="./main.html" style="display: block; width: 100%; height: 100%; border: 0px;"></iframe>
+    </div>
+
+    <script>
+        // Get all display items
+        const items = document.querySelectorAll('.display-item');
+        let currentIndex = 0;
+
+        // Function to show the next item
+        function showNextItem() {
+            // Hide the current item
+            items[currentIndex].style.display = 'none';
+
+            // Move to the next item
+            currentIndex = (currentIndex + 1) % items.length;
+
+            // Show the next item
+            items[currentIndex].style.display = 'block';
+
+            // Stop the interval when reaching the last item (Content 3)
+            if (currentIndex === items.length - 1) {
+                clearInterval(intervalId);
+            }
+        }
+
+        // Initially display the first item
+        items[0].style.display = 'block';
+
+        // Set interval to switch items every 3.5 seconds
+        const intervalId = setInterval(showNextItem, 3500);
+    </script>
+</body>
+</html>

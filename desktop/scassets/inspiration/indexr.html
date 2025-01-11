@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Right-Click Popup Menu</title>
+    <style>
+        /* Style for the popup menu */
+        #context-menu {
+            display: none; /* Initially hidden */
+            position: absolute;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            z-index: 1000;
+            width: 200px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        /* Style for each item in the menu */
+        #context-menu div {
+            padding: 10px;
+            cursor: pointer;
+        }
+        #context-menu div:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h2>Right-Click anywhere on the page to see the context menu!</h2>
+
+    <!-- The context menu -->
+    <div id="context-menu">
+        <div id="item1">Option 1</div>
+        <div id="item2">Option 2</div>
+        <div id="item3">Option 3</div>
+    </div>
+
+    <script>
+        const contextMenu = document.getElementById('context-menu');
+
+        // Show the context menu at the mouse cursor position
+        window.addEventListener('contextmenu', function(event) {
+            event.preventDefault(); // Prevent the default right-click menu
+            contextMenu.style.display = 'block'; // Show the context menu
+            contextMenu.style.left = `${event.pageX}px`; // Position menu at mouse x
+            contextMenu.style.top = `${event.pageY}px`; // Position menu at mouse y
+        });
+
+        // Hide the context menu when clicking anywhere on the page
+        window.addEventListener('click', function() {
+            contextMenu.style.display = 'none';
+        });
+
+        // Add custom actions for each menu item (optional)
+        document.getElementById('item1').addEventListener('click', function() {
+            alert('You clicked Option 1');
+            contextMenu.style.display = 'none'; // Close menu after selection
+        });
+
+        document.getElementById('item2').addEventListener('click', function() {
+            alert('You clicked Option 2');
+            contextMenu.style.display = 'none'; // Close menu after selection
+        });
+
+        document.getElementById('item3').addEventListener('click', function() {
+            alert('You clicked Option 3');
+            contextMenu.style.display = 'none'; // Close menu after selection
+        });
+    </script>
+</body>
+</html>

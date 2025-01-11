@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Load Manifest</title>
+    <link rel="manifest" href="./manifest.json">
+    <script type="application/json">
+        app.get('/manifest.json', (req, res) => {
+            res.type('json').sendFile(path.join(__dirname, 'manifest.json'));
+        });        
+    </script>
+    <script>
+        const cors = require('cors');
+        app.use(cors());
+    </script>
+</head>
+<body>
+    <h1>Web App Manifest</h1>
+    <pre id="manifestContent">Loading...</pre>
+
+    <script>
+        // Fetch the manifest.json file and display its content
+        fetch('manifest.json')
+            .then(response => response.json())
+            .then(data => {
+                // Display the JSON content in the <pre> tag
+                document.getElementById('manifestContent').textContent = JSON.stringify(data, null, 2);
+            })
+            .catch(error => {
+                // Handle any errors that occur during the fetch
+                document.getElementById('manifestContent').textContent = "Error loading manifest: " + error.message;
+            });
+
+            const express = require('express');
+const path = require('path');
+const app = express();
+
+// Serve static files like the manifest
+app.use(express.static(path.join(__dirname, 'public')));
+
+// Serve manifest.json file
+app.get('/manifest.json', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'manifest.json'));
+});
+
+// Start the server
+app.listen(3000, () => {
+    console.log('Server is running on http://localhost:3000');
+});
+
+    </script>
+</body>
+</html>

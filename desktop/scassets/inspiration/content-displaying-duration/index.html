@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop Display</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.display-item {
+    font-size: 2rem;
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <div class="display-item" id="item1">Content 1</div>
+    <div class="display-item" id="item2" style="display: none;">Content 2</div>
+    <div class="display-item" id="item3" style="display: none;">Content 3</div>
+
+    <script>
+// Get all display items
+const items = document.querySelectorAll('.display-item');
+let currentIndex = 0;
+
+// Function to show the next item
+function showNextItem() {
+    // Hide the current item
+    items[currentIndex].style.display = 'none';
+
+    // Move to the next item, looping back to the first
+    currentIndex = (currentIndex + 1) % items.length;
+
+    // Show the next item
+    items[currentIndex].style.display = 'block';
+}
+
+// Set interval to switch items every 7 seconds
+setInterval(showNextItem, 7000);
+
+    </script>
+</body>
+</html>

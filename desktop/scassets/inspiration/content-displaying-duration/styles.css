@@ -1,0 +1,13 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.display-item {
+    font-size: 2rem;
+    text-align: center;
+}

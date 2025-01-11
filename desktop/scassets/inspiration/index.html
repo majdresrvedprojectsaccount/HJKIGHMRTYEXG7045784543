@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Window</title>
+    <style>
+        /* Basic styling for the window */
+        #window {
+            width: 400px;
+            height: 300px;
+            border: 2px solid black;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            background-color: white;
+            z-index: 9999;
+            display: none; /* Initially hidden */
+            resize: both;
+            overflow: hidden;
+        }
+
+        /* Title bar */
+        #title-bar {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            cursor: move;
+            user-select: none;
+        }
+
+        /* Buttons for closing, minimizing, and maximizing */
+        .window-buttons {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+        .window-buttons button {
+            margin-left: 5px;
+            background-color: #f44336;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .window-buttons .minimize-btn {
+            background-color: #ff9800;
+        }
+
+        .window-buttons .maximize-btn {
+            background-color: #4caf50;
+        }
+
+        /* Styles for minimized window */
+        #minimized-window {
+            width: 100px;
+            height: 30px;
+            background-color: #ccc;
+            border: 2px solid #888;
+            position: absolute;
+            top: 400px;
+            left: 50px;
+            cursor: pointer;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Button to open the window -->
+    <button id="open-window-btn">Open Window</button>
+
+    <!-- The movable, resizable window -->
+    <div id="window">
+        <div id="title-bar">
+            <span>Window Title</span>
+            <div class="window-buttons">
+                <button class="close-btn">X</button>
+                <button class="minimize-btn">_</button>
+                <button class="maximize-btn">[]</button>
+            </div>
+        </div>
+        <div id="window-content">
+            <p>Content of the window</p>
+        </div>
+    </div>
+
+    <!-- Minimized window representation -->
+    <div id="minimized-window">Minimized Window</div>
+
+    <script>
+        // Getting DOM elements
+        const openWindowBtn = document.getElementById("open-window-btn");
+        const windowElem = document.getElementById("window");
+        const minimizeBtn = document.querySelector(".minimize-btn");
+        const maximizeBtn = document.querySelector(".maximize-btn");
+        const closeBtn = document.querySelector(".close-btn");
+        const minimizedWindow = document.getElementById("minimized-window");
+
+        let isMinimized = false;
+        let isMaximized = false;
+
+        // Function to open the window
+        openWindowBtn.addEventListener("click", function() {
+            windowElem.style.display = "block"; // Show the window
+            minimizedWindow.style.display = "none"; // Hide minimized version
+            isMinimized = false;
+            isMaximized = false;
+        });
+
+        // Function to close the window
+        closeBtn.addEventListener("click", function() {
+            windowElem.style.display = "none";
+            minimizedWindow.style.display = "none";
+        });
+
+        // Function to minimize the window
+        minimizeBtn.addEventListener("click", function() {
+            if (!isMinimized) {
+                windowElem.style.display = "none"; // Hide the window
+                minimizedWindow.style.display = "block"; // Show the minimized window
+                isMinimized = true;
+            }
+        });
+
+        // Function to restore the window from minimized
+        minimizedWindow.addEventListener("click", function() {
+            windowElem.style.display = "block"; // Show the window
+            minimizedWindow.style.display = "none"; // Hide the minimized version
+            isMinimized = false;
+        });
+
+        // Function to maximize the window
+        maximizeBtn.addEventListener("click", function() {
+            if (isMaximized) {
+                windowElem.style.width = "400px";
+                windowElem.style.height = "300px";
+            } else {
+                windowElem.style.width = "100%";
+                windowElem.style.height = "100%";
+            }
+            isMaximized = !isMaximized;
+        });
+
+        // Making the window draggable
+        const titleBar = document.getElementById("title-bar");
+        titleBar.addEventListener("mousedown", function(e) {
+            const offsetX = e.clientX - windowElem.offsetLeft;
+            const offsetY = e.clientY - windowElem.offsetTop;
+
+            function dragMove(e) {
+                windowElem.style.left = e.clientX - offsetX + "px";
+                windowElem.style.top = e.clientY - offsetY + "px";
+            }
+
+            function stopDrag() {
+                document.removeEventListener("mousemove", dragMove);
+                document.removeEventListener("mouseup", stopDrag);
+            }
+
+            document.addEventListener("mousemove", dragMove);
+            document.addEventListener("mouseup", stopDrag);
+        });
+    </script>
+</body>
+</html>
