@@ -290,9 +290,9 @@ body {
     scroll-behavior: smooth;
     margin: 0px;
     padding: 0px;
-    cursor: url('../cursors/default.png'), auto;
     scrollbar-width: thin; /* Can be 'auto', 'thin', or 'none' */
     scrollbar-color: #00a2e8 rgba(71, 71, 71, 0.2); /* Thumb color and track color */
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/default.png'), auto;
 }
 
 header {
@@ -313,6 +313,7 @@ header {
     width: 100%;
     font-size: 20px;
     font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/default.png'), auto;
 }
 
 header:hover {
