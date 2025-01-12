@@ -182,6 +182,7 @@ body {
     color: #fff;
     scrollbar-width: thin; /* Can be 'auto', 'thin', or 'none' */
     scrollbar-color: #00a2e8 rgba(71, 71, 71, 0.2); /* Thumb color and track color */
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/default.png'), auto;
 }
 
 .apps-bar-section {
@@ -664,6 +665,7 @@ float {
     color: #00a2e8;
     font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
     text-decoration: none; font-size: 16px;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .social-icons a img {
@@ -683,11 +685,13 @@ float {
     padding-top: 1px;
     padding-right: 1px;
     padding-bottom: 1px;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .notation-area a {
     color: #333;
     text-decoration: none;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .notation-area a:hover {
@@ -696,6 +700,7 @@ float {
     border-radius: 4px;
     padding-left: 8px;
     padding-right: 8px;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .social-icons {
@@ -705,6 +710,7 @@ float {
 
 .social-icons a {
     margin: 0 10px;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .social-icons img {
@@ -853,6 +859,7 @@ float {
     color: #00a2e8;
     font-size: 20px;
     font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 header .logo-&-navbar p a {
@@ -860,6 +867,7 @@ header .logo-&-navbar p a {
     color: #00a2e8;
     font-size: 20px;
     font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .card-contents {
@@ -992,6 +1000,7 @@ header .logo-&-navbar p a {
     margin-left: 12px;
     margin-right: 12px;
     text-decoration: none;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .body-text-content-elements1 .body-text-content-elements-in-1 .section1 dt dl {
@@ -1006,6 +1015,7 @@ header .logo-&-navbar p a {
     font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
     margin-left: 14px;
     margin-right: 10px;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .body-text-content-elements1 .section2 {
@@ -1058,6 +1068,7 @@ header .logo-&-navbar p a {
     margin-left: 12px;
     margin-right: 12px;
     text-decoration: none;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .body-text-content-elements1 .section2 dt dl {
@@ -1072,6 +1083,7 @@ header .logo-&-navbar p a {
     font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
     margin-left: 14px;
     margin-right: 10px;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 /* ----------------------------------------------- */
@@ -1142,6 +1154,7 @@ header .logo-&-navbar p a {
     margin-left: 12px;
     margin-right: 12px;
     text-decoration: none;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .body-text-content-elements2 .body-text-content-elements-in-2 .section1 dt dl {
@@ -1155,6 +1168,7 @@ header .logo-&-navbar p a {
     font-size: 17px;
     font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
     margin-left: 14px; margin-right: 10px;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .body-text-content-elements2 .body-text-content-elements-in-2 .section2 {
@@ -1207,6 +1221,7 @@ header .logo-&-navbar p a {
     margin-left: 12px;
     margin-right: 12px;
     text-decoration: none;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .body-text-content-elements2 .body-text-content-elements-in-2 .section2 dt dl {
@@ -1221,6 +1236,7 @@ header .logo-&-navbar p a {
     font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
     margin-left: 14px;
     margin-right: 10px;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .body-text-content-elements3 {
@@ -1289,6 +1305,7 @@ header .logo-&-navbar p a {
     margin-left: 12px;
     margin-right: 12px;
     text-decoration: none;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .body-text-content-elements3 .body-text-content-elements-in-3 .section1 dt dl {
@@ -1303,6 +1320,7 @@ header .logo-&-navbar p a {
     font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
     margin-left: 14px;
     margin-right: 10px;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .body-text-content-elements3 .body-text-content-elements-in-3 .section2 {
@@ -1355,6 +1373,7 @@ header .logo-&-navbar p a {
     margin-bottom: 5px;
     margin-left: 12px;
     margin-right: 12px;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .body-text-content-elements3 .body-text-content-elements-in-3 .section2 dt dl {
@@ -1369,6 +1388,7 @@ header .logo-&-navbar p a {
     font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
     margin-left: 14px;
     margin-right: 10px;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .body-text-content-elements4 {
@@ -1441,6 +1461,7 @@ header .logo-&-navbar p a {
     margin-left: 12px;
     margin-right: 12px;
     text-decoration: none;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .body-text-content-elements4 .body-text-content-elements-in-4 .section1 dt dl {
@@ -1455,6 +1476,7 @@ header .logo-&-navbar p a {
     font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
     margin-left: 14px;
     margin-right: 10px;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .body-text-content-elements4 .body-text-content-elements-in-4 .section2 {
@@ -1507,6 +1529,7 @@ header .logo-&-navbar p a {
     margin-left: 12px;
     margin-right: 12px;
     text-decoration: none;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .body-text-content-elements4 .body-text-content-elements-in-4 .section2 dt dl {
@@ -1521,6 +1544,7 @@ header .logo-&-navbar p a {
     font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
     margin-left: 14px;
     margin-right: 10px;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .body-text-content-elements5 {
@@ -1593,6 +1617,7 @@ header .logo-&-navbar p a {
     margin-left: 12px;
     margin-right: 12px;
     text-decoration: none;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .body-text-content-elements5 .body-text-content-elements-in-5 .section1 dt dl {
@@ -1607,6 +1632,7 @@ header .logo-&-navbar p a {
     font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
     margin-left: 14px;
     margin-right: 10px;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .body-text-content-elements5 .body-text-content-elements-in-5 .section2 {
@@ -1659,6 +1685,7 @@ header .logo-&-navbar p a {
     margin-left: 12px;
     margin-right: 12px;
     text-decoration: none;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .body-text-content-elements5 .body-text-content-elements-in-5 .section2 dt dl {
@@ -1673,6 +1700,7 @@ header .logo-&-navbar p a {
     font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
     margin-left: 14px;
     margin-right: 10px;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .body-text-content-elements6 {
@@ -1744,6 +1772,7 @@ header .logo-&-navbar p a {
     margin-left: 12px;
     margin-right: 12px;
     text-decoration: none;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .body-text-content-elements6 .body-text-content-elements-in-6 .section1 dt dl {
@@ -1758,6 +1787,7 @@ header .logo-&-navbar p a {
     font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
     margin-left: 14px;
     margin-right: 10px;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .body-text-content-elements6 .body-text-content-elements-in-6 .section2 {
@@ -1810,6 +1840,7 @@ header .logo-&-navbar p a {
     margin-left: 12px;
     margin-right: 12px;
     text-decoration: none;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .body-text-content-elements6 .body-text-content-elements-in-6 .section2 dt dl {
@@ -1824,6 +1855,7 @@ header .logo-&-navbar p a {
     font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
     margin-left: 14px;
     margin-right: 10px;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .body-text-content-elements7 {
@@ -1896,6 +1928,7 @@ header .logo-&-navbar p a {
     margin-left: 12px;
     margin-right: 12px;
     text-decoration: none;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .body-text-content-elements7 .body-text-content-elements-in-7 .section1 dt dl {
@@ -1915,6 +1948,7 @@ header .logo-&-navbar p a {
     font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
     margin-left: 14px;
     margin-right: 10px;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .body-text-content-elements7 .body-text-content-elements-in-7 .section2 {
@@ -1967,6 +2001,7 @@ header .logo-&-navbar p a {
     margin-left: 12px;
     margin-right: 12px;
     text-decoration: none;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .body-text-content-elements7 .body-text-content-elements-in-7 .section2 dt dt {
@@ -1981,6 +2016,7 @@ header .logo-&-navbar p a {
     font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
     margin-left: 14px;
     margin-right: 10px;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .body-text-content-elements8 {
@@ -2053,6 +2089,7 @@ header .logo-&-navbar p a {
     margin-left: 12px;
     margin-right: 12px;
     text-decoration: none;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .body-text-content-elements8 .body-text-content-elements-in-8 .section1 dt dl {
@@ -2067,6 +2104,7 @@ header .logo-&-navbar p a {
     font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
     margin-left: 14px;
     margin-right: 10px;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .body-text-content-elements8 .body-text-content-elements-in-8 .section2 {
@@ -2119,6 +2157,7 @@ header .logo-&-navbar p a {
     margin-left: 12px;
     margin-right: 12px;
     text-decoration: none;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .body-text-content-elements8 .body-text-content-elements-in-8 .section2 dt dl {
@@ -2133,6 +2172,7 @@ header .logo-&-navbar p a {
     font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
     margin-left: 14px;
     margin-right: 10px;
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'), auto;
 }
 
 .card-contents .card-holder-div .about-our-company1 {
