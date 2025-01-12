@@ -1,3 +1,6 @@
+:host {
+  display: block;
+}
 
 @font-face {
   font-family: 'Sonyo-Black';
