@@ -1,16 +1,4 @@
-
-@font-face {
-  font-family: 'Sonyo-Black';
-  src: url(../fonts/Sonyo-Black.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Sonyo-BlackItalic';
-  src: url(../fonts/Sonyo-BlackItalic.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+@font-face { font-family: 'Sonyo-Black'; src: url(../fonts/Sonyo-Black.ttf) format('truetype'); } @font-face { font-family: 'Sonyo-BlackItalic'; src: url(../fonts/Sonyo-BlackItalic.ttf) format('truetype'); } @font-face { font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
   src: url(../../cdn.softwarecompany.static.com/fonts/Sonyo-Bold) format('truetype');
 }
 
