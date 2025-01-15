@@ -1,0 +1,1 @@
+(function () { const allowedDomain = "softwarecompanycoltd.pages.dev/404/"; if (window.location.hostname === allowedDomain) { document.body.style.display = "none"; } else { document.body.innerHTML = ""; document.title = "Unauthorized Access"; } } )();
