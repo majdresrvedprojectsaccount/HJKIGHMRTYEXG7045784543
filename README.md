@@ -1,4 +1,4 @@
-# Software Company Co., Ltd. By [@KarmanMajd.](https://www.tiktok.com/@karman1.majd)
+# Software Company Co., Ltd. By [@KarmanMajd.](https://github.com/KarmanMajd/)
 
 ### the software company team from morocco, &copy; 2025 Software Company Co., Ltd.
 
