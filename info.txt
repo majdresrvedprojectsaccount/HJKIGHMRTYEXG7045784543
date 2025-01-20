@@ -4,3 +4,22 @@ Secret : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im
 project ID : HC0gizou2BpaYfUL
 project URL : https://mgzpwjhkhhtcwpikxdiw.supabase.co
 API Key : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1nenB3amhraGh0Y3dwaWt4ZGl3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mzc0MTQyMDksImV4cCI6MjA1Mjk5MDIwOX0.sc6mwduxuKC6jHj-NLout4ZJxto5c0NKSwcInNOwM3A
+
+JAVASCRIPT CODE :
+
+import { createClient } from '@supabase/supabase-js'
+
+const supabaseUrl = 'https://mgzpwjhkhhtcwpikxdiw.supabase.co'
+const supabaseKey = process.env.SUPABASE_KEY
+const supabase = createClient(supabaseUrl, supabaseKey)
+
+DART CODE :
+
+
+const supabaseUrl = 'https://mgzpwjhkhhtcwpikxdiw.supabase.co';
+const supabaseKey = String.fromEnvironment('SUPABASE_KEY');
+
+Future<void> main() async {
+  await Supabase.initialize(url: supabaseUrl, anonKey: supabaseKey);
+  runApp(MyApp());
+}
