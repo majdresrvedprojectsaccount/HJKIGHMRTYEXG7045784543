@@ -2547,7 +2547,7 @@ header .logo-&-navbar p a {
     }
 }
 
-@media (max-width: 1600px) {
+@media (width: 1600px) {
     .page-finding-section .page-middle-part {
         display: flex;
         flex-direction: row;
@@ -2557,7 +2557,7 @@ header .logo-&-navbar p a {
     }
 }
 
-@media (max-width: 1920px) {
+@media (width: 1920px) {
     .page-finding-section .page-middle-part {
         display: flex;
         flex-direction: row;
