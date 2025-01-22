@@ -662,6 +662,31 @@ float {
     color: #00a2e8;
 }
 
+.headerwrapper {
+  height: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.headerwrapper h1 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: center;
+  color: #00a2e8;
+}
+
+.maindiv .headerwrapper p {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: center;
+  color: #000;
+}
+
 .dropdown-container {
     position: relative;
     display: inline-block;
