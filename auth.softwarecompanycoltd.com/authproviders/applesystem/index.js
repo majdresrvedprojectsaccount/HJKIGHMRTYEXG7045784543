@@ -1,6 +1,6 @@
 // ====================================================== //
 // © 2025 Software Company Co., Ltd. All rights reserved. //
-// This stylesheet is protected by copyright law.         //
+// This Javascript is protected by copyright law.         //
 // Unauthorized use or distribution is prohibited.        //
 // ====================================================== //
 
