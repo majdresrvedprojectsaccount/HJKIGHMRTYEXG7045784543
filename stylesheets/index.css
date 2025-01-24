@@ -1,527 +1,100 @@
-@font-face { font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; src: url(https://softwarecompanycoltd.pages.dev/cdn.softwarecompany.static.com/fonts/Sonyo-Bold) format('truetype'); } body { margin: 0px; padding: 0px; background-color: #f4f4f4; font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; }
-::selection {
-  background-color: #00a2e8;
-  color: #f4f4f4;
-}
-header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  align-content: center;
-  background-color: rgba(244, 244, 244, 0.7);
-  backdrop-filter: blur(10px);
-  height: 57px;
-  width: 100%;
-  border-bottom: 1px solid rgba(71, 71, 71, 0.18);
-  position: fixed;
-  top: 0px;
-}
-header .leftside {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  align-content: center;
-  height: 40px;
-  margin-left: 20px;
-}
-header .leftside .logodiv p {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 25px;
-  margin-right: 10px;
-  user-select: none;
-  color: #00a2e8;
-  font-size: 17px;
-}
-header .leftside .activitybuttons {
-  user-select: none;
-}
-header .leftside .activitybuttons button {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-right: 8px;
-  padding-left: 8px;
-  border: 1px solid;
-  border-color: rgba(71, 71, 71, 0.25);
-  background-color: transparent;
-  border-radius: 4px;
-  font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
-}
-header .leftside .activitybuttons button:hover {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-right: 8px;
-  padding-left: 8px;
-  border: 1px solid;
-  border-color: rgba(71, 71, 71, 0.25);
-  background-color: transparent;
-  border-radius: 4px;
-  cursor: pointer;
-  color: #00a2e8;
-  font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
-}
-.spacebuttons {
-  height: 40px;
-  width: auto;
-  margin-top: 6px;
-  margin-left: 60px;
-  margin-right: 25px;
-}
-.spacebuttons button {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-right: 8px;
-  padding-left: 8px;
-  border: 1px solid;
-  border-color: rgba(71, 71, 71, 0.25);
-  background-color: transparent;
-  border-radius: 4px;
-  font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
-}
-.spacebuttons button:hover {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-right: 8px;
-  padding-left: 8px;
-  border: 1px solid;
-  border-color: rgba(71, 71, 71, 0.25);
-  background-color: transparent;
-  border-radius: 4px;
-  cursor: pointer;
-  color: #00a2e8;
-  font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
-}
-.spacebuttons #dashboard {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-right: 8px;
-  padding-left: 8px;
-  border: 1px solid;
-  border-color: rgba(71, 71, 71, 0.25);
-  color: #f4f4f4;
-  background-color: #00a2e888;
-  border-radius: 4px;
-  font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
-}
-.spacebuttons #dashboard:hover {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-right: 8px;
-  padding-left: 8px;
-  border: 1px solid;
-  border-color: rgba(71, 71, 71, 0.25);
-  color: #f4f4f4;
-  background-color: #00a2e8;
-  border-radius: 4px;
-  cursor: pointer;
-  font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
-}
-.maindiv {
-  height: 100vh;
-  padding-top: 62px;
-}
-.headerwrapper {
-  height: auto;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-.headerwrapper h1 {
-  margin-top: 60px;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  margin-left: 20px;
-  text-align: center;
-}
-.maindiv .headerwrapper p {
-  font-size: 17px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  margin-left: 20px;
-  text-align: center;
-  color: #00a2e8;
-}
-.maindiv .headerwrapper #black {
-  font-size: 17px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-right: 20px;
-  margin-left: 20px;
-  text-align: center;
-  color: #000;
-}
-.maindiv .headerwrapper .buttonwrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  margin-left: 20px;
-}
-.headerwrapper .buttonwrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  margin-left: 20px;
-}
-.maindiv .headerwrapper .buttonwrapper #startproject {
-  font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
-  border-color: rgba(71, 71, 71, 0.25);
-  color: #f4f4f4;
-  background-color: #00a2e888;
-  border-radius: 4px;
-  font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-right: 30px;
-  padding-left: 30px;
-  border: 1px solid;
-}
-.headerwrapper .buttonwrapper #startproject {
-  font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
-  border-color: rgba(71, 71, 71, 0.25);
-  color: #f4f4f4;
-  background-color: #00a2e888;
-  border-radius: 4px;
-  font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-right: 30px;
-  padding-left: 30px;
-  border: 1px solid;
-}
-.headerwrapper .buttonwrapper #explore:hover { margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 8px; padding-bottom: 8px; padding-right: 30px; padding-left: 30px; border: 1px solid; border-color: rgba(71, 71, 71, 0.25); color: #00a2e8; background-color: rgba(71, 71, 71, 0.18); border-radius: 4px; cursor: pointer; font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; }
-.headerwrapper .buttonwrapper #explore { font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; border-color: rgba(71, 71, 71, 0.25); color: #000; background-color: transparent; border-radius: 4px; font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 8px; padding-bottom: 8px; padding-right: 30px; padding-left: 30px; border: 1px solid; } .maindiv .headerwrapper .buttonwrapper #explore:hover { margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 8px; padding-bottom: 8px; padding-right: 30px; padding-left: 30px; border: 1px solid; border-color: rgba(71, 71, 71, 0.25); color: #00a2e8; background-color: rgba(71, 71, 71, 0.18); border-radius: 4px; cursor: pointer; font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; }
-.headerwrapper .buttonwrapper #startproject:hover { margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 8px; padding-bottom: 8px; padding-right: 30px; padding-left: 30px; border: 1px solid; border-color: rgba(71, 71, 71, 0.25); color: #f4f4f4; background-color: #00a2e8; border-radius: 4px; cursor: pointer; font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; } .maindiv .headerwrapper .buttonwrapper #explore { font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; border-color: rgba(71, 71, 71, 0.25); color: #000; background-color: transparent; border-radius: 4px; font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 8px; padding-bottom: 8px; padding-right: 30px; padding-left: 30px; border: 1px solid; } .maindiv .headerwrapper .buttonwrapper #explore:hover { margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 8px; padding-bottom: 8px; padding-right: 30px; padding-left: 30px; border: 1px solid; border-color: rgba(71, 71, 71, 0.25); color: #00a2e8; background-color: rgba(71, 71, 71, 0.18); border-radius: 4px; cursor: pointer; font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; }
-.maindiv .headerwrapper .buttonwrapper #startproject:hover { margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 8px; padding-bottom: 8px; padding-right: 30px; padding-left: 30px; border: 1px solid; border-color: rgba(71, 71, 71, 0.25); color: #f4f4f4; background-color: #00a2e8; border-radius: 4px; cursor: pointer; font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; } .maindiv .headerwrapper .buttonwrapper #explore { font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; border-color: rgba(71, 71, 71, 0.25); color: #000; background-color: transparent; border-radius: 4px; font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 8px; padding-bottom: 8px; padding-right: 30px; padding-left: 30px; border: 1px solid; } .maindiv .headerwrapper .buttonwrapper #explore:hover { margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 8px; padding-bottom: 8px; padding-right: 30px; padding-left: 30px; border: 1px solid; border-color: rgba(71, 71, 71, 0.25); color: #00a2e8; background-color: rgba(71, 71, 71, 0.18); border-radius: 4px; cursor: pointer; font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; }
+/* ====================================================== */
+/* © 2025 Software Company Co., Ltd. All rights reserved. */
+/* This stylesheet is protected by copyright law.         */
+/* Unauthorized use or distribution is prohibited.        */
+/* ====================================================== */
 
+/* ---- MIT License ---- */
+/* Copyright (c) 2025 softwarecompanycoltd */
+/* Permission is hereby granted, free of charge, to any person obtaining a copy */
+/* of this software and associated documentation files (the "Software Company Co., Ltd."), to deal */
+/* in the Software without restriction, including without limitation the rights */
+/* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell */
+/* copies of the Software, and to permit persons to whom the Software is */
+/* furnished to do so, subject to the following conditions: 
 
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
 
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.//
 
-.footer {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  max-width: 1200px;
-  background-color: #f4f4f4;
-  margin: 0 auto;
-  flex-wrap: wrap;
-  height: 421px;
-}
-.footer img {
-  height: 52px;
-  width: 198px;
-  margin-right: 20px;
-  margin-top: 27px;
-  height: 52px;
-  width: 198px;
-  border-right-style: solid;
-  border-left-style: solid;
-  border-top-style: solid;
-  border-bottom-style: solid;
-  border-color: transparent;
-  border-radius: 6px;
-  border-top-width: 1px;
-  border-bottom-width: 1px;
-  border-right-width: 1px;
-  border-left-width: 1px;
-  margin-bottom: 350px;
-}
-.footer-column {
-  flex: 1;
-  padding: 15px;
-  min-width: 200px;
-}
-.footer-column h3 {
-  font-size: 16px;
-  margin-bottom: 15px;
-  color: #000;
-  font-size: 19px;
-  margin-top: 20px;
-  text-decoration: none;
-  font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
-  margin-bottom: 15px;
-}
-.footer-column ul {
-  list-style: none;
-  padding: 0;
-}
-.footer-column ul li a {
-  color: #979797da;
-  text-decoration: none;
-  font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
-  font-size: 17px;
-}
-.footer-column ul li a:hover {
-  cursor: pointer;
-  text-decoration: underline;
-  color: #00a2e8;
-  border-color: transparent;
-  border-radius: 4px;
-  padding-left: 8px;
-  padding-right: 8px;
-}
-.footer-column ul li {
-  margin-bottom: 10px;
-  color: #979797da;
-  text-decoration: none;
-  font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
-  font-size: 17px;
-}
-footer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  align-content: center;
-  background-color: rgba(244, 244, 244, 0.7);
-  backdrop-filter: blur(10px);
-  height: 57px;
-  width: 100%;
-  border-top: 1px solid rgba(71, 71, 71, 0.18);
-  bottom: 0px;
-}
-footer .leftside p {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 25px;
-  margin-right: 10px;
-  color: #000;
-  font-size: 14px;
-}
-.switch {
-  margin-left: 100px;
-}
-footer .rightside .theme .switch .switch-body {
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  align-items: center;
-  background-color: #f4f4f4;
-  margin-right: 30px;
-  border-right-style: solid;
-  border-right-width: 1px;
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-left-style: solid;
-  border-left-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  margin-left: 1100px;
-  padding-top: 4px;
-  padding-right: 4px;
-  padding-left: 4px;
-  padding-bottom: 4px;
-  border-color: rgba(71, 71, 71, 0.18);
-  border-radius: 8px;
-}
-footer .rightside .theme .switch .switch-body {
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  align-items: center;
-  background-color: #f4f4f4;
-  margin-right: 30px;
-  border-right-style: solid;
-  border-right-width: 1px;
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-left-style: solid;
-  border-left-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  margin-left: 1100px;
-  padding-top: 4px;
-  padding-right: 4px;
-  padding-left: 4px;
-  padding-bottom: 4px;
-  border-color: rgba(71, 71, 71, 0.18);
-  border-radius: 8px;
-}
-footer .rightside .theme .switch .switch-body .buttoner .buttoner-body img {
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  align-items: center;
-  background-color: #f4f4f4;
-  width: 18px;
-  height: 18px;
-  margin-top: 2px;
-  margin-right: 2px;
-  margin-left: 2px;
-  margin-bottom: 2px;
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-right-style: solid;
-  border-right-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-left-style: solid;
-  border-left-width: 1px;
-  padding-top: 2px;
-  padding-right: 2px;
-  padding-left: 2px;
-  padding-bottom: 2px;
-  border-color: rgba(71, 71, 71, 0.18);
-  border-radius: 3px;
-}
-footer .rightside .theme .switch .switch-body .buttoner .buttoner-body img {
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  align-items: center;
-  background-color: #f4f4f4;
-  width: 18px;
-  height: 18px;
-  margin-top: 2px;
-  margin-right: 2px;
-  margin-left: 2px;
-  margin-bottom: 2px;
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-right-style: solid;
-  border-right-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-left-style: solid;
-  border-left-width: 1px;
-  padding-top: 2px;
-  padding-right: 2px;
-  padding-left: 2px;
-  padding-bottom: 2px;
-  border-color: rgba(71, 71, 71, 0.18);
-  border-radius: 3px;
-}
-footer .rightside .theme .switch .switch-body .buttoner .buttoner-body img:hover {
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  align-items: center;
-  background-color: rgba(71, 71, 71, 0.2);
-  width: 18px;
-  height: 18px;
-  margin-top: 2px;
-  margin-right: 2px;
-  margin-left: 2px;
-  margin-bottom: 2px;
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-right-style: solid;
-  border-right-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-left-style: solid;
-  border-left-width: 1px;
-  padding-top: 2px;
-  padding-right: 2px;
-  padding-left: 2px;
-  padding-bottom: 2px;
-  border-color: rgba(71, 71, 71, 0.18);
-  border-radius: 3px;
-}
-.anotationdiv {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  margin-left: 20px;
-}
-@media (width: 1349px) {
-  header .leftside .activitybuttons {
-    margin-right: 190px;
-  }
-  footer .rightside .theme .switch .switch-body {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
-    background-color: #f4f4f4;
-    margin-right: 30px;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-top-style: solid;
-    border-top-width: 1px;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    margin-left: 988px;
-    padding-top: 4px;
-    padding-right: 4px;
-    padding-left: 4px;
-    padding-bottom: 4px;
-    border-color: rgba(71, 71, 71, 0.18);
-    border-radius: 8px;
-  }
-}
-@media (width: 1600px) {
-  header .leftside .activitybuttons {
-    margin-right: 420px;
-  }
-  footer .rightside .theme .switch .switch-body {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
-    background-color: #f4f4f4;
-    margin-right: 30px;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-top-style: solid;
-    border-top-width: 1px;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    margin-left: 1100px;
-    padding-top: 4px;
-    padding-right: 4px;
-    padding-left: 4px;
-    padding-bottom: 4px;
-    border-color: rgba(71, 71, 71, 0.18);
-    border-radius: 8px;
-  }
-}
+ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION 
+
+     Definitions.
+     "License" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
+     "Licensor" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
+     "Legal Entity" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, "control" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
+     "You" (or "Your") shall mean an individual or Legal Entity exercising permissions granted by this License.
+     "Source" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.
+     "Object" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.
+     "Work" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).
+     "Derivative Works" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.
+     "Contribution" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, "submitted" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as "Not a Contribution."
+     "Contributor" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work.
+     Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.
+     Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.
+     Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:
+     (a) You must give any other recipients of the Work or Derivative Works a copy of this License; and
+     (b) You must cause any modified files to carry prominent notices stating that You changed the files; and
+     (c) You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and
+     (d) If the Work includes a "NOTICE" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.
+     You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License.
+     Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.
+     Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability. END OF TERMS AND CONDITIONS APPENDIX: How to apply the Apache License to your work. To apply the Apache License to your work, attach the following boilerplate notice, with the fields enclosed by brackets "[]" replaced with your own identifying information. (Don't include the brackets!) The text should be enclosed in the appropriate comment syntax for the file format. We also recommend that a file or class name and description of purpose be included on the same "printed page" as the copyright notice for easier identification within third-party archives. Copyright [2025] [© 2025 Software Company Co., Ltd.] | Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at | http://www.apache.org/licenses/LICENSE-2.0 | Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. */ @font-face { font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; src: url(https://softwarecompanycoltd.pages.dev/cdn.softwarecompany.static.com/fonts/Sonyo-Bold) format('truetype'); } body { margin: 0px; padding: 0px; background-color: #f4f4f4; font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; } ::selection { background-color: #00a2e8; color: #f4f4f4; } header { display: flex; flex-direction: row; align-items: center; align-content: center; background-color: rgba(244, 244, 244, 0.7); backdrop-filter: blur(10px); height: 57px; width: 100%; border-bottom: 1px solid rgba(71, 71, 71, 0.18); position: fixed; top: 0px; } header .leftside { display: flex; flex-direction: row; align-items: center; align-content: center; height: 40px; margin-left: 20px; } header .leftside .logodiv p { margin-top: 10px; margin-bottom: 10px; margin-left: 25px; margin-right: 10px; user-select: none; color: #00a2e8; font-size: 17px; } header .leftside .activitybuttons { user-select: none; } header .leftside .activitybuttons button { margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 2px; padding-bottom: 2px; padding-right: 8px; padding-left: 8px; border: 1px solid; border-color: rgba(71, 71, 71, 0.25); background-color: transparent; border-radius: 4px; font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; } header .leftside .activitybuttons button:hover { margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 2px; padding-bottom: 2px; padding-right: 8px; padding-left: 8px; border: 1px solid; border-color: rgba(71, 71, 71, 0.25); background-color: transparent; border-radius: 4px; cursor: pointer; color: #00a2e8; font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; } .spacebuttons { height: 40px; width: auto; margin-top: 6px; margin-left: 60px; margin-right: 25px; } .spacebuttons button { margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 2px; padding-bottom: 2px; padding-right: 8px; padding-left: 8px; border: 1px solid; border-color: rgba(71, 71, 71, 0.25); background-color: transparent; border-radius: 4px; font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; } .spacebuttons button:hover { margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 2px; padding-bottom: 2px; padding-right: 8px; padding-left: 8px; border: 1px solid; border-color: rgba(71, 71, 71, 0.25); background-color: transparent; border-radius: 4px; cursor: pointer; color: #00a2e8; font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; } .spacebuttons #dashboard { margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 2px; padding-bottom: 2px; padding-right: 8px; padding-left: 8px; border: 1px solid; border-color: rgba(71, 71, 71, 0.25); color: #f4f4f4; background-color: #00a2e888; border-radius: 4px; font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; } .spacebuttons #dashboard:hover { margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 2px; padding-bottom: 2px; padding-right: 8px; padding-left: 8px; border: 1px solid; border-color: rgba(71, 71, 71, 0.25); color: #f4f4f4; background-color: #00a2e8; border-radius: 4px; cursor: pointer; font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; } .maindiv { height: 100vh; padding-top: 62px; } .headerwrapper { height: auto; margin-top: 0px; margin-bottom: 0px; } .headerwrapper h1 { margin-top: 60px; margin-bottom: 20px; margin-right: 20px; margin-left: 20px; text-align: center; } .maindiv .headerwrapper p { font-size: 17px; margin-top: 20px; margin-bottom: 20px; margin-right: 20px; margin-left: 20px; text-align: center; color: #00a2e8; } .maindiv .headerwrapper #black { font-size: 17px; margin-top: 5px; margin-bottom: 5px; margin-right: 20px; margin-left: 20px; text-align: center; color: #000; } .maindiv .headerwrapper .buttonwrapper { display: flex; flex-direction: row; align-items: center; align-content: center; justify-content: center; margin-top: 20px; margin-bottom: 20px; margin-right: 20px; margin-left: 20px; } .headerwrapper .buttonwrapper { display: flex; flex-direction: row; align-items: center; align-content: center; justify-content: center; margin-top: 20px; margin-bottom: 20px; margin-right: 20px; margin-left: 20px; } .maindiv .headerwrapper .buttonwrapper #startproject { font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; border-color: rgba(71, 71, 71, 0.25); color: #f4f4f4; background-color: #00a2e888; border-radius: 4px; font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 8px; padding-bottom: 8px; padding-right: 30px; padding-left: 30px; border: 1px solid; } .headerwrapper .buttonwrapper #startproject { font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; border-color: rgba(71, 71, 71, 0.25); color: #f4f4f4; background-color: #00a2e888; border-radius: 4px; font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 8px; padding-bottom: 8px; padding-right: 30px; padding-left: 30px; border: 1px solid; } .headerwrapper .buttonwrapper #explore:hover { margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 8px; padding-bottom: 8px; padding-right: 30px; padding-left: 30px; border: 1px solid; border-color: rgba(71, 71, 71, 0.25); color: #00a2e8; background-color: rgba(71, 71, 71, 0.18); border-radius: 4px; cursor: pointer; font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; } .headerwrapper .buttonwrapper #explore { font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; border-color: rgba(71, 71, 71, 0.25); color: #000; background-color: transparent; border-radius: 4px; font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 8px; padding-bottom: 8px; padding-right: 30px; padding-left: 30px; border: 1px solid; } .maindiv .headerwrapper .buttonwrapper #explore:hover { margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 8px; padding-bottom: 8px; padding-right: 30px; padding-left: 30px; border: 1px solid; border-color: rgba(71, 71, 71, 0.25); color: #00a2e8; background-color: rgba(71, 71, 71, 0.18); border-radius: 4px; cursor: pointer; font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; } .headerwrapper .buttonwrapper #startproject:hover { margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 8px; padding-bottom: 8px; padding-right: 30px; padding-left: 30px; border: 1px solid; border-color: rgba(71, 71, 71, 0.25); color: #f4f4f4; background-color: #00a2e8; border-radius: 4px; cursor: pointer; font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; } .maindiv .headerwrapper .buttonwrapper #explore { font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; border-color: rgba(71, 71, 71, 0.25); color: #000; background-color: transparent; border-radius: 4px; font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 8px; padding-bottom: 8px; padding-right: 30px; padding-left: 30px; border: 1px solid; } .maindiv .headerwrapper .buttonwrapper #explore:hover { margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 8px; padding-bottom: 8px; padding-right: 30px; padding-left: 30px; border: 1px solid; border-color: rgba(71, 71, 71, 0.25); color: #00a2e8; background-color: rgba(71, 71, 71, 0.18); border-radius: 4px; cursor: pointer; font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; } .maindiv .headerwrapper .buttonwrapper #startproject:hover { margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 8px; padding-bottom: 8px; padding-right: 30px; padding-left: 30px; border: 1px solid; border-color: rgba(71, 71, 71, 0.25); color: #f4f4f4; background-color: #00a2e8; border-radius: 4px; cursor: pointer; font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; } .maindiv .headerwrapper .buttonwrapper #explore { font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; border-color: rgba(71, 71, 71, 0.25); color: #000; background-color: transparent; border-radius: 4px; font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 8px; padding-bottom: 8px; padding-right: 30px; padding-left: 30px; border: 1px solid; } .maindiv .headerwrapper .buttonwrapper #explore:hover { margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; padding-top: 8px; padding-bottom: 8px; padding-right: 30px; padding-left: 30px; border: 1px solid; border-color: rgba(71, 71, 71, 0.25); color: #00a2e8; background-color: rgba(71, 71, 71, 0.18); border-radius: 4px; cursor: pointer; font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; }
+/* ====================================================== */
+/* © 2025 Software Company Co., Ltd. All rights reserved. */
+/* This stylesheet is protected by copyright law.         */
+/* Unauthorized use or distribution is prohibited.        */
+/* ====================================================== */
+
+/* ---- MIT License ---- */
+/* Copyright (c) 2025 softwarecompanycoltd */
+/* Permission is hereby granted, free of charge, to any person obtaining a copy */
+/* of this software and associated documentation files (the "Software Company Co., Ltd."), to deal */
+/* in the Software without restriction, including without limitation the rights */
+/* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell */
+/* copies of the Software, and to permit persons to whom the Software is */
+/* furnished to do so, subject to the following conditions: 
+
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.//
+
+ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION 
+
+     Definitions.
+     "License" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
+     "Licensor" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
+     "Legal Entity" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, "control" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
+     "You" (or "Your") shall mean an individual or Legal Entity exercising permissions granted by this License.
+     "Source" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.
+     "Object" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.
+     "Work" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).
+     "Derivative Works" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.
+     "Contribution" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, "submitted" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as "Not a Contribution."
+     "Contributor" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work.
+     Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.
+     Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.
+     Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:
+     (a) You must give any other recipients of the Work or Derivative Works a copy of this License; and
+     (b) You must cause any modified files to carry prominent notices stating that You changed the files; and
+     (c) You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and
+     (d) If the Work includes a "NOTICE" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.
+     You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License.
+     Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.
+     Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability. END OF TERMS AND CONDITIONS APPENDIX: How to apply the Apache License to your work. To apply the Apache License to your work, attach the following boilerplate notice, with the fields enclosed by brackets "[]" replaced with your own identifying information. (Don't include the brackets!) The text should be enclosed in the appropriate comment syntax for the file format. We also recommend that a file or class name and description of purpose be included on the same "printed page" as the copyright notice for easier identification within third-party archives. Copyright [2025] [© 2025 Software Company Co., Ltd.] | Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at | http://www.apache.org/licenses/LICENSE-2.0 | Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. */
+
+.footer { display: flex; justify-content: space-between; padding: 20px; max-width: 1200px; background-color: #f4f4f4; margin: 0 auto; flex-wrap: wrap; height: 421px; } .footer img { height: 52px; width: 198px; margin-right: 20px; margin-top: 27px; height: 52px; width: 198px; border-right-style: solid; border-left-style: solid; border-top-style: solid; border-bottom-style: solid; border-color: transparent; border-radius: 6px; border-top-width: 1px; border-bottom-width: 1px; border-right-width: 1px; border-left-width: 1px; margin-bottom: 350px; } .footer-column { flex: 1; padding: 15px; min-width: 200px; } .footer-column h3 { font-size: 16px; margin-bottom: 15px; color: #000; font-size: 19px; margin-top: 20px; text-decoration: none; font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; margin-bottom: 15px; } .footer-column ul { list-style: none; padding: 0; } .footer-column ul li a { color: #979797da; text-decoration: none; font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; font-size: 17px; } .footer-column ul li a:hover { cursor: pointer; text-decoration: underline; color: #00a2e8; border-color: transparent; border-radius: 4px; padding-left: 8px; padding-right: 8px; } .footer-column ul li { margin-bottom: 10px; color: #979797da; text-decoration: none; font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; font-size: 17px; } footer { display: flex; flex-direction: row; align-items: center; align-content: center; background-color: rgba(244, 244, 244, 0.7); backdrop-filter: blur(10px); height: 57px; width: 100%; border-top: 1px solid rgba(71, 71, 71, 0.18); bottom: 0px; } footer .leftside p { margin-top: 10px; margin-bottom: 10px; margin-left: 25px; margin-right: 10px; color: #000; font-size: 14px; } .switch { margin-left: 100px; } footer .rightside .theme .switch .switch-body { display: flex; flex-direction: row; align-content: center; align-items: center; background-color: #f4f4f4; margin-right: 30px; border-right-style: solid; border-right-width: 1px; border-top-style: solid; border-top-width: 1px; border-left-style: solid; border-left-width: 1px; border-bottom-style: solid; border-bottom-width: 1px; margin-left: 1100px; padding-top: 4px; padding-right: 4px; padding-left: 4px; padding-bottom: 4px; border-color: rgba(71, 71, 71, 0.18); border-radius: 8px; } footer .rightside .theme .switch .switch-body { display: flex; flex-direction: row; align-content: center; align-items: center; background-color: #f4f4f4; margin-right: 30px; border-right-style: solid; border-right-width: 1px; border-top-style: solid; border-top-width: 1px; border-left-style: solid; border-left-width: 1px; border-bottom-style: solid; border-bottom-width: 1px; margin-left: 1100px; padding-top: 4px; padding-right: 4px; padding-left: 4px; padding-bottom: 4px; border-color: rgba(71, 71, 71, 0.18); border-radius: 8px; } footer .rightside .theme .switch .switch-body .buttoner .buttoner-body img { display: flex; flex-direction: row; align-content: center; align-items: center; background-color: #f4f4f4; width: 18px; height: 18px; margin-top: 2px; margin-right: 2px; margin-left: 2px; margin-bottom: 2px; border-top-style: solid; border-top-width: 1px; border-right-style: solid; border-right-width: 1px; border-bottom-style: solid; border-bottom-width: 1px; border-left-style: solid; border-left-width: 1px; padding-top: 2px; padding-right: 2px; padding-left: 2px; padding-bottom: 2px; border-color: rgba(71, 71, 71, 0.18); border-radius: 3px; } footer .rightside .theme .switch .switch-body .buttoner .buttoner-body img { display: flex; flex-direction: row; align-content: center; align-items: center; background-color: #f4f4f4; width: 18px; height: 18px; margin-top: 2px; margin-right: 2px; margin-left: 2px; margin-bottom: 2px; border-top-style: solid; border-top-width: 1px; border-right-style: solid; border-right-width: 1px; border-bottom-style: solid; border-bottom-width: 1px; border-left-style: solid; border-left-width: 1px; padding-top: 2px; padding-right: 2px; padding-left: 2px; padding-bottom: 2px; border-color: rgba(71, 71, 71, 0.18); border-radius: 3px; } footer .rightside .theme .switch .switch-body .buttoner .buttoner-body img:hover { display: flex; flex-direction: row; align-content: center; align-items: center; background-color: rgba(71, 71, 71, 0.2); width: 18px; height: 18px; margin-top: 2px; margin-right: 2px; margin-left: 2px; margin-bottom: 2px; border-top-style: solid; border-top-width: 1px; border-right-style: solid; border-right-width: 1px; border-bottom-style: solid; border-bottom-width: 1px; border-left-style: solid; border-left-width: 1px; padding-top: 2px; padding-right: 2px; padding-left: 2px; padding-bottom: 2px; border-color: rgba(71, 71, 71, 0.18); border-radius: 3px; } .anotationdiv { display: flex; flex-direction: row; align-items: center; align-content: center; justify-content: center; margin-top: 20px; margin-bottom: 20px; margin-right: 20px; margin-left: 20px; } @media (width: 1349px) { header .leftside .activitybuttons { margin-right: 190px; } footer .rightside .theme .switch .switch-body { display: flex; flex-direction: row; align-content: center; align-items: center; background-color: #f4f4f4; margin-right: 30px; border-right-style: solid; border-right-width: 1px; border-top-style: solid; border-top-width: 1px; border-left-style: solid; border-left-width: 1px; border-bottom-style: solid; border-bottom-width: 1px; margin-left: 988px; padding-top: 4px; padding-right: 4px; padding-left: 4px; padding-bottom: 4px; border-color: rgba(71, 71, 71, 0.18); border-radius: 8px; } } @media (width: 1600px) { header .leftside .activitybuttons { margin-right: 420px; } footer .rightside .theme .switch .switch-body { display: flex; flex-direction: row; align-content: center; align-items: center; background-color: #f4f4f4; margin-right: 30px; border-right-style: solid; border-right-width: 1px; border-top-style: solid; border-top-width: 1px; border-left-style: solid; border-left-width: 1px; border-bottom-style: solid; border-bottom-width: 1px; margin-left: 1100px; padding-top: 4px; padding-right: 4px; padding-left: 4px; padding-bottom: 4px; border-color: rgba(71, 71, 71, 0.18); border-radius: 8px; } }
