@@ -69,4 +69,10 @@
 
   // http://www.apache.org/licenses/LICENSE-2.0
 
-// Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. AppleID.auth.init({clientId:"com.example.yourapp",scope:"name email",redirectURI:"https://yourapp.com/callback",usePopup:!0}),document.getElementById("apple-login").addEventListener("click",(()=>{})),AppleID.auth.signIn().then((e=>{console.log(e)})).catch((e=>{console.error(e)})); export class AppComponent { auth = firebase.auth(); async signInWithApple() { const provider = new firebase.auth.OAuthProvider('apple.com'); const result = await this.auth.signInWithPopup(provider); console.log(result.user); } }
+// Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. 
+
+
+
+
+
+AppleID.auth.init({clientId:"com.example.yourapp",scope:"name email",redirectURI:"https://yourapp.com/callback",usePopup:!0}),document.getElementById("apple-login").addEventListener("click",(()=>{})),AppleID.auth.signIn().then((e=>{console.log(e)})).catch((e=>{console.error(e)})); export class AppComponent { auth = firebase.auth(); async signInWithApple() { const provider = new firebase.auth.OAuthProvider('apple.com'); const result = await this.auth.signInWithPopup(provider); console.log(result.user); } }
