@@ -68,6 +68,18 @@
     <!-- Start of : sc - instructions ( Meta Tags - SEO ENGINES ) -->
     <!-- Start of : sc - instructions ( Javscripts ) -->
     <!-- Google tag (gtag.js) -->
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script>
+        const { createClient } = supabase
+        const _supabase = createClient('https://vkuobgbdzflrimryeegg.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZrdW9iZ2JkemZscmltcnllZWdnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzYyNjQwMjUsImV4cCI6MjA1MTg0MDAyNX0.FSNw34p1niPsBXp3pRkw13d0KoOaRA7-B8c08Mm2MXo')
+        console.log('Supabase Instance: ', _supabase)
+    </script>
+    <script type="module">
+        import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm'
+        const supabase = createClient('https://vkuobgbdzflrimryeegg.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZrdW9iZ2JkemZscmltcnllZWdnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzYyNjQwMjUsImV4cCI6MjA1MTg0MDAyNX0.FSNw34p1niPsBXp3pRkw13d0KoOaRA7-B8c08Mm2MXo')
+        console.log('Supabase Instance: ', supabase)
+    </script>
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
