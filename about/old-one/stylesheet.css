@@ -1,0 +1,180 @@
+        body {
+            margin: 0;
+            font-family: 'Lexend', sans-serif;
+            background-color: #454747; /* Body background color */
+            color: white; /* Default text color */
+            display: flex;
+            border: 37px solid transparent; /* Transparent border */
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: rgba(0, 162, 232, 0.7); /* Blue color with transparency */
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .header .welcome {
+            color: #3399ff; /* Welcome text color */
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        /* Main Content Styles */
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 70px 20px 20px;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        /* Main Card Styles */
+        .main-card {
+            background-color: #454747;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            background-color: transparent;
+            max-width: 800px;
+            margin-bottom: 20px;
+            color: white;  /* Ensure text color is white */
+        }
+
+        /* Title Card Styles */
+        .title-card {
+            background-color: #454747;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            padding: 20px;
+            color: red; 
+            background-color: transparent;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            text-align: center;
+            color: inherit;  /* Ensure text color adapts to theme */
+        }
+
+        /* Inner Card Styles */
+        .inner-card {
+            background-color: #454747;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            padding: 20px;
+            background-color: transparent;
+            color: white; /* Set text color to white */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            color: inherit;  /* Ensure text color adapts to theme */
+        }
+
+        .card-title {
+            font-size: 24px;
+            font-weight: 800;
+            margin: 0;
+        }
+
+        .card-body {
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        /* Company Info Styles */
+        .company-info {
+            color: #007bff; /* Company info color */
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        /* Button Styles */
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .button {
+            display: block;
+            width: 90%;
+            max-width: 350px; /* Reduced max-width for better appearance */
+            padding: 15px;
+            margin: 10px 0;
+            background-color: #007bff; /* Primary blue color */
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+        }
+
+        .button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+        }
+
+        .button:active {
+            background-color: #004494; /* Even darker blue for active state */
+        }
+
+        /* Styling for the GTranslate wrapper */
+        .gtranslate_wrapper {
+            background-color: #454746; /* Light background */
+            border: 1px solid #ccc; /* Light gray border */
+            border-radius: 8px; /* Rounded corners */
+            padding: 10px; /* Spacing inside the div */
+            width: 200px; /* Set a fixed width */
+            text-align: center; /* Center the content */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+            margin: 20px auto; /* Center the div on the page with margin */
+        }
+
+        /* Styling for the flags, adjusting size */
+        .gtranslate_wrapper img {
+            border-radius: 4px; /* Make flags circular */
+            border: 2px solid #ddd; /* Light border around flags */
+            transition: transform 0.3s ease; /* Smooth hover effect */
+        }
+
+        /* Hover effect for the flags */
+        .gtranslate_wrapper img:hover {
+            transform: scale(1.2); /* Slight zoom on hover */
+        }
+  
+        /* Responsive Styles */
+        @media (max-width: 600px) {
+            .card-body {
+                font-size: 14px;
+            }
+
+            .button {
+                font-size: 16px;
+            }
+        }

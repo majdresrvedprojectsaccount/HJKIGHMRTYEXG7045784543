@@ -1,0 +1,2 @@
+            <svg onclick="sendFeedback('up')">👍</svg>
+            <svg onclick="sendFeedback('down')"></svg>
