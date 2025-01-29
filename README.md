@@ -8,6 +8,10 @@
 
 ---
 
+<div align="center">
+  <img src="https://softwarecompanycoltd.pages.dev/root/favicon/logo.png" width="60%" alt="Software Company Co., Ltd." />
+</div>
+
 **`🇲🇦 From Morocco ✅`**
 **`🇺🇸 American Corporation Project`**
 **`🧑The Founder of The Company (C.E.O) : KarmanMajd`**
@@ -15,3 +19,7 @@
 ### Respects From The c.e.o Of The Company.
 
 " A big thank you from the CEO of this company @KarmanMajd, I appreciate your effort in building this magnificent platform, which developers like me can build, start project, ship software togheder, thank you very much for this platform, it has been really useful, for the distribution, and design of my projects and my website, from our company, a big thank's from the developer of this magnificent website made at home and with great love, I'l thank you very much, delighted to know you that was the word of the CEO of this company."
+
+```
+npm install @softwarecompany
+```
