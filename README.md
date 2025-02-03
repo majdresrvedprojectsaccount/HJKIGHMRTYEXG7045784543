@@ -12,6 +12,9 @@
   <img src="https://softwarecompanycoltd.pages.dev/root/favicon/logo.png" width="60%" alt="Software Company Co., Ltd." />
 </div>
 
+> [!NOTE]
+> **This Repository is Not just a Normal Repository It is the Website That Our Company Runs on it and, it may contain some fragile info, settings, scripts, etc. be carefull on how you use it, this repository has some limited access and that's because it's generaly not a fully open source code project, and because it is a website not a repository and we've shoosed github platform to host our company website assets files, and a for editing it and making changes to it.**
+
 **`🇲🇦 From Morocco ✅`**
 **`🇺🇸 American Corporation Project`**
 **`🧑The Founder of The Company (C.E.O) : KarmanMajd`**
