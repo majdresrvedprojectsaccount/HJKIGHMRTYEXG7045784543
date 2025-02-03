@@ -77,7 +77,11 @@ https://softwarecompanycoltd.vercel.app/
 | Supported Browsers                 | :white_check_mark: FireFox Mozilla | :white_check_mark: Google Chrome   | :white_check_mark: Opera Browser  | :white_check_mark: Apple Safari    | :white_check_mark: Tor Browser     | :white_check_mark: MS Edge Browser |
 | ---------------------------------- | ---------------------------------- | ---------------------------------- | --------------------------------- | ---------------------------------- | --------------------- | ------------ |
 
+### Website Pages 
 
+| Website | Website Page | Number of Website Pages |
+| ------- | ------------ | ----------------------- |
+| **`@softwarecompanycoltd`** | **`🏠 Home`** **`⚙️ Sign In`** **`🚪 Sign Up`** **`🪪 Membership Request`** **`ℹ️ About`** **`🥇 Team`** **`📨 Contact`** **`🚉 Company Platforms`** **`🧑‍🤝‍🧑 Company Groups`** **`🆘 Help`** **`⚖️ Terms of Service`** **`🔈 Ads`** **`📰 News`** **`🫶 Donation`** **`📦 Products`** **`🚧 Projects`** **`📖 E-Books`** **`📃 Documentations`** **`💬 Assistance`** | 19 pages |
 ### Website Footer Area :
 
 | Software Company | Company | Company Platforms | Company Groups | Activity | Store & Support | News |
