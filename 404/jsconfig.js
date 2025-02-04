@@ -1,1 +1,1 @@
-import { url, cssconfig } from './jsconfigtable.js';
+import { jsconfig } from './jsconfigtable.js';
