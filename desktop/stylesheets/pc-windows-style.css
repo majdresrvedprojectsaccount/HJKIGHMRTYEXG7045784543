@@ -314,8 +314,4 @@
     text-align: left;
     font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
     background-color: rgba(0, 162, 232, 0.25);
-    backdrop-filter: blur(10px);
-    border-color: transparent;
-    margin-top: 4px;
-    margin-bottom: 4px;
-}
+    backdrop-filter: blur(10px); border-color: transparent; margin-top: 4px; margin-bottom: 4px; }
