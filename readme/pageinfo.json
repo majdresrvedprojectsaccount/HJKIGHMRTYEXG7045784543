@@ -1,0 +1,66 @@
+{
+    "name": "sc_About_page",
+    "company_name" : "Software Company Co., Ltd.",
+    "webapp_support" : "true",
+    "page_uri" : "./about/",
+    "origin" : "sc_dynamic_web_content_support",
+    "country" : "_morocco",
+    "author" : "@KarmanMajd",
+    "last_mod" : "17/02/2025",
+    "architecture" : "compatibility_mode, default",
+    "integrated_assets" : "javascript_/_typescript",
+    "scripts" : [
+        {
+            "Js_Packages_Chunks" : "_service_worker_integrations_, _runtime_js_operators.",
+            "Ts_Packages_Chunks" : "_backend_data_process_services"
+        }
+    ],
+    "assets" : [
+        {
+            "Xml_Assets" : "./index.xml",
+            "Css_Assets" : "_css_stylesheet_",
+            "Json_Assets" : "_json_content_support",
+            "Js_Assets" : "_js_scripts_support"
+        }
+    ],
+    "Tokens_Support" : [
+        {
+            "_sc_client_Tokens" : "true",
+            "_sc_client_cookies_storing_process" : "false",
+            "_sc_Website_Protection" : "true",
+            "_sc_response/request_encryption" : "true, https={$:format}",
+            "_sc_client_analytics/feedback_protection" : "true"
+        }
+    ],
+    "site_structure" : [
+        {
+            "_root" : "form { ROOT }, './root/';",
+            "_Pages_Management" : "Linking_contents={ cache: true, hyperlinks: true, speedonload: true }"
+        }
+    ],
+    "site_pages/subpages" : [
+        {
+            "Sign_in" : "https://softwarecompanycoltd.pages.dev/signin/",
+            "Sign_up" : "https://softwarecompanycoltd.pages.dev/signup/",
+            "About" : "https://softwarecompanycoltd.pages.dev/about/",
+            "ReadMe" : "https://softwarecompanycoltd.pages.dev/readme/",
+            "Terms_of_Service" : "https://softwarecompanycoltd.pages.dev/tos/",
+            "Code_of_Conduct" : "https://softwarecompanycoltd.pages.dev/coc/",
+            "License" : "https://softwarecompanycoltd.pages.dev/license/",
+            "TikTok" : "https://softwarecompanycoltd.pages.dev/tiktok/",
+            "Telegram" : "https://softwarecompanycoltd.pages.dev/telegram/",
+            "Desktop" : "https://softwarecompanycoltd.pages.dev/desktop/",
+            "404" : "https://softwarecompanycoltd.pages.dev/404/"
+        }
+    ],
+    "Project_Partnaers" : [
+        {
+            "Microsoft" : "https://www.microsoft.com/",
+            "Cloudflare" : "https://www.cloudflare.com/",
+            "Github" : "https://github.com/",
+            "Gitlab" : "https://gitlab.com/",
+            "Supabase" : "https://supabase.com/",
+            "Firebase" : "https://firebase.google.com/"
+        }
+    ]
+}
