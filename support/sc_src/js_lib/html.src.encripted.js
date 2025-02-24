@@ -1,6 +1,6 @@
 async function scLIBXHTMLCODECONTXT96541AIRPORTUSERUNTIMEUICONTENTSUBPAGE() {
   try {
-    const response = await fetch('../sc_src/sc_support_dist_main.html');
+    const response = await fetch('https://softwarecompanycoltd.pages.dev/support/sc_src/sc_support_dist_main.html');
     if (!response.ok) {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
