@@ -32,6 +32,19 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-HYC0R2MY88"></script>
 <script>(function(w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); }); (window, document, 'script', 'dataLayer', 'G-HYC0R2MY88');</script>
 <script src="https://softwarecompanycoltd.pages.dev/support/sc_src/js_lib/sc.p.js"></script>
+<script defer>
+    const scanQRButton = document.getElementById('scan-qr-button');
+    const qrPopup = document.getElementById('qr-popup');
+    const overlay = document.getElementById('overlay');
+    const closePopupButton = document.getElementById('close-popup');
+    scanQRButton.addEventListener('click',()=>{overlay.style.display = 'block';qrPopup.classList.add('show');});closePopupButton.addEventListener('click',()=>{qrPopup.classList.remove('show');overlay.style.display = 'none';});overlay.addEventListener('click',()=>{qrPopup.classList.remove('show');overlay.style.display = 'none';});
+</script>
+<script src="./javascripts/index.js"></script>
+<script defer>
+    const loaderBar = document.getElementById('loader-bar'); let progress = 0; const interval = setInterval(() => { progress += Math.random() * 10; progress = 100; clearInterval(interval); document.body.classList.add('loaded'); } loaderBar.style.width = progress + '%'; }, 100); window.addEventListener('load', () => {loaderBar.style.width = '100%'; setTimeout(() => document.body.classList.add('loaded'), 300); });
+</script>
+<script src="../server.softwarecompanycoltd.com/_sc_javascript_middle_ware/_sc_pages/_support/_notifications/_sc_notifictationpush_service.js"></script>
+<script src="https://softwarecompanycoltd.pages.dev/server.softwarecompanycoltd.com/jQuery-v3.7.1.js"></script>
 <script>  if ('serviceWorker' in navigator) { navigator.serviceWorker.register('../sw.js') .then(() => console.log('Service Worker registered')) .catch((error) => console.error('Service Worker registration failed:', error)); } </script>
 <link href="../root/favicon/Software-Company-New-Logo-with-no-background-minimal.png" rel="chortcut icon" type="icon">
 <link rel="preload" href="../../cdn.softwarecompany.static.com/fonts/Sonyo-Bold" crossorigin="anonymous" as="font" format="truetype">
@@ -70,18 +83,5 @@
 </head>
 <body id="_next_sc_support_web_app" ondragstart="return false;" oncontextmenu="return false;" onmousedown="return false; pointer-events: none; -webkit-user-select: none; user-select: none;">
     <script src="./sc_src/js_lib/html.src.js"></script>
-    <script>
-    const scanQRButton = document.getElementById('scan-qr-button');
-    const qrPopup = document.getElementById('qr-popup');
-    const overlay = document.getElementById('overlay');
-    const closePopupButton = document.getElementById('close-popup');
-    scanQRButton.addEventListener('click',()=>{overlay.style.display = 'block';qrPopup.classList.add('show');});closePopupButton.addEventListener('click',()=>{qrPopup.classList.remove('show');overlay.style.display = 'none';});overlay.addEventListener('click',()=>{qrPopup.classList.remove('show');overlay.style.display = 'none';});
-    </script>
-    <script src="./javascripts/index.js"></script>
-    <script>
-    const loaderBar = document.getElementById('loader-bar'); let progress = 0; const interval = setInterval(() => { progress += Math.random() * 10; progress = 100; clearInterval(interval); document.body.classList.add('loaded'); } loaderBar.style.width = progress + '%'; }, 100); window.addEventListener('load', () => {loaderBar.style.width = '100%'; setTimeout(() => document.body.classList.add('loaded'), 300); });
-    </script>
-    <script src="../server.softwarecompanycoltd.com/_sc_javascript_middle_ware/_sc_pages/_support/_notifications/_sc_notifictationpush_service.js"></script>
-    <script src="https://softwarecompanycoltd.pages.dev/server.softwarecompanycoltd.com/jQuery-v3.7.1.js"></script>
 </body>
 </html>
