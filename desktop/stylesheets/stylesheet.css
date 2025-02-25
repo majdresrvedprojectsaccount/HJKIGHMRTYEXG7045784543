@@ -561,11 +561,12 @@ footer {
     padding-right: 4px;
     border-radius: 5px;
     border-color: #00a2e8;
-    background-color: rgba(0, 132, 232, 0.3);
+    background-color: rgba(0, 132, 232, 0.15);
     cursor: wait;
     position: relative;
     display: inline-block;
     cursor: pointer;
+    scale: 0.85;
 }
 
 .footer-section input {
