@@ -4,6 +4,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google-signin-client_id" content="410620235784-u1lbfkc2pkg2agvu8dp3h12r2ld30mln.apps.googleusercontent.com">
   <title>Sign up - Software Company Co., Ltd.</title>
+  <script>
+    function setThemeBasedOnTime() {
+      const currentHour = new Date().getHours();
+      const body = document.body;
+      const darkModeStart = 19; // 7 PM
+      const darkModeEnd = 7;    // 7 AM
+      if (currentHour >= darkModeStart || currentHour < darkModeEnd) {
+        const linkElement = document.createElement('link');
+        linkElement.rel = 'stylesheet';
+        linkElement.type = 'text/css';
+        linkElement.href = './sc_css_components/user_darkmd_interface_ui.css';
+        document.head.appendChild(linkElement);
+      } else {
+        const linkElement = document.createElement('link');
+        linkElement.rel = 'stylesheet';
+        linkElement.type = 'text/css';
+        linkElement.href = './sc_css_components/user_runtime_interface_ui_min.css';
+        document.head.appendChild(linkElement);
+      }
+    }
+    document.addEventListener("DOMContentLoaded", setThemeBasedOnTime);
+  </script>
   <script src="https://accounts.google.com/gsi/client" async defer></script>
   <link href="../root/favicon/Software-Company-New-Logo-with-no-background-minimal.png" type="icon" rel="chortcut icon">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-4MJRSK2HS8"></script>
@@ -33,120 +55,44 @@
     </div>
     <div class="rightside">
       <select title="dropdown">
-        <option value="en">
-          English
-        </option>
-        <option value="es">
-          Español
-        </option>
-        <option value="fr">
-          Français
-        </option>
-        <option value="it">
-          Italiano
-        </option>
-        <option value="pt">
-          Português
-        </option>
-        <option value="vi">
-          Tiếng Việt
-        </option>
-        <option value="tr">
-          Türkçe
-        </option>
-        <option value="ru">
-          Русский
-        </option>
-        <option value="hi">
-          हिन्दी
-        </option>
-        <option value="ko">
-          한국어
-        </option>
-        <option value="ja">
-          日本語
-        </option>
-        <option value="zh">
-          繁體中文
-        </option>
-        <option value="ar">
-          العربية
-        </option>
-        <option value="th">
-          ภาษาไทย
-        </option>
-        <option value="he">
-          עִבְרִית
-        </option>
-        <option value="nl">
-          Nederlands
-        </option>
-        <option value="nb">
-          Norsk bokmål
-        </option>
-        <option value="cs">
-          Čeština
-        </option>
-        <option value="el">
-          Ελληνικά
-        </option>
-        <option value="pl">
-          Polski
-        </option>
-        <option value="ro">
-          Română
-        </option>
-        <option value="ga">
-          Gaeilge
-        </option>
-        <option value="is">
-          Íslenska
-        </option>
-        <option value="hu">
-          Magyar
-        </option>
-        <option value="kk">
-          қазақ тілі
-        </option>
-        <option value="uz">
-          Uzbek
-        </option>
-        <option value="bg">
-          български език
-        </option>
-        <option value="hr">
-          Hrvatski jezik
-        </option>
-        <option value="et">
-          Eesti keel
-        </option>
-        <option value="lv">
-          Latviešu valoda
-        </option>
-        <option value="lt">
-          Lietuvių kalba
-        </option>
-        <option value="fi">
-          Suomi
-        </option>
-        <option value="sv">
-          Svenska
-        </option>
-        <option value="sk">
-          Slovenčina
-        </option>
-        <option value="sl">
-          Slovenski jezik
-        </option>
-        <option value="id">
-          Bahasa Indonesia
-        </option>
-        <option value="da">
-          Dansk
-        </option>
-        <option value="de">
-          Deutsch
-        </option>
+        <option value="en">English</option>
+        <option value="es">Español</option>
+        <option value="fr">Français</option>
+        <option value="it">Italiano</option>
+        <option value="pt">Português</option>
+        <option value="vi">Tiếng Việt</option>
+        <option value="tr">Türkçe</option>
+        <option value="ru">Русский</option>
+        <option value="hi">हिन्दी</option>
+        <option value="ko">한국어</option>
+        <option value="ja">日本語</option>
+        <option value="zh">繁體中文</option>
+        <option value="ar">العربية</option>
+        <option value="th">ภาษาไทย</option>
+        <option value="he">עִבְרִית</option>
+        <option value="nl">Nederlands</option>
+        <option value="nb">Norsk bokmål</option>
+        <option value="cs">Čeština</option>
+        <option value="el">Ελληνικά</option>
+        <option value="pl">Polski</option>
+        <option value="ro">Română</option>
+        <option value="ga">Gaeilge</option>
+        <option value="is">Íslenska</option>
+        <option value="hu">Magyar</option>
+        <option value="kk">қазақ тілі</option>
+        <option value="uz">Uzbek</option>
+        <option value="bg">български език</option>
+        <option value="hr">Hrvatski jezik</option>
+        <option value="et">Eesti keel</option>
+        <option value="lv">Latviešu valoda</option>
+        <option value="lt">Lietuvių kalba</option>
+        <option value="fi">Suomi</option>
+        <option value="sv">Svenska</option>
+        <option value="sk">Slovenčina</option>
+        <option value="sl">Slovenski jezik</option>
+        <option value="id">Bahasa Indonesia</option>
+        <option value="da">Dansk</option>
+        <option value="de">Deutsch</option>
       </select>
     </div>
   </header>
@@ -177,28 +123,9 @@
         <p class="links"><a href="../../email-recovery/" id="Link-C" style="font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';"></a><a href="../../documentations/" id="Link-D" style="font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';"></a></p>
       </div>
     </form>
-    <script>
-      function setThemeBasedOnTime() {
-        const currentHour = new Date().getHours();
-        const body = document.body;
-        const darkModeStart = 19; // 7 PM
-        const darkModeEnd = 7;    // 7 AM
-        if (currentHour >= darkModeStart || currentHour < darkModeEnd) {
-          const linkElement = document.createElement('link');
-          linkElement.rel = 'stylesheet';
-          linkElement.type = 'text/css';
-          linkElement.href = './sc_css_components/user_darkmd_interface_ui.css';
-          document.head.appendChild(linkElement);
-        } else {
-          const linkElement = document.createElement('link');
-          linkElement.rel = 'stylesheet';
-          linkElement.type = 'text/css';
-          linkElement.href = './sc_css_components/user_runtime_interface_ui_min.css';
-          document.head.appendChild(linkElement);
-        }
-      }
-      document.addEventListener("DOMContentLoaded", setThemeBasedOnTime);
-    </script>
+    <footer>
+      <span><p>By doing this action, you agree to our <a href="../tos/">Terms of Service</a> and acknowledge that you have read our <a href="../privacy/">Privacy Policy</a>.</p></span>
+    </footer>
     <div class="gtranslate_wrapper">
       <script>
       window.gtranslateSettings={"default_language":"en","native_language_names":true,"detect_browser_language":true,"wrapper_selector":".gtranslate_wrapper","flag_size":16}

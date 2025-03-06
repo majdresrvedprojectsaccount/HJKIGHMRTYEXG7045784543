@@ -12,6 +12,28 @@
   <script>
     const _0x4c9d50=_0x5188;function _0x69e0(){const _0x201abb=['https://softwarecompanycoltd.pages.dev/signin/','https://softwarecompanycoltd.vercel.app/signin','4qEUELS','4291170gPUELt','397590ZAZecK','34224BEuLOy','540723BXVTwu','119763OMlAzd','location','https://softwarecompanycoltd.vercel.app/signin/','312CBgoTh','35FPHttL','https://softwarecompanycoltd.pages.dev/signin','4895330YrJCRm','body','innerHTML','4099872YnBfvE','includes'];_0x69e0=function(){return _0x201abb;};return _0x69e0();}(function(_0x297f9e,_0x59d487){const _0x1887d0=_0x5188,_0x160007=_0x297f9e();while(!![]){try{const _0xf24aa2=-parseInt(_0x1887d0(0x160))/0x1*(-parseInt(_0x1887d0(0x16e))/0x2)+-parseInt(_0x1887d0(0x170))/0x3+-parseInt(_0x1887d0(0x16a))/0x4+parseInt(_0x1887d0(0x16f))/0x5+-parseInt(_0x1887d0(0x171))/0x6*(parseInt(_0x1887d0(0x165))/0x7)+-parseInt(_0x1887d0(0x164))/0x8*(parseInt(_0x1887d0(0x161))/0x9)+parseInt(_0x1887d0(0x167))/0xa;if(_0xf24aa2===_0x59d487)break;else _0x160007['push'](_0x160007['shift']());}catch(_0x4cd1d7){_0x160007['push'](_0x160007['shift']());}}}(_0x69e0,0xb0cfe));const x=[_0x4c9d50(0x16c),_0x4c9d50(0x163),_0x4c9d50(0x16d),_0x4c9d50(0x166)],y=window[_0x4c9d50(0x162)]['origin'];function _0x5188(_0x108b59,_0x8a1e1b){const _0x69e0d0=_0x69e0();return _0x5188=function(_0x518882,_0x13c12b){_0x518882=_0x518882-0x160;let _0x160531=_0x69e0d0[_0x518882];return _0x160531;},_0x5188(_0x108b59,_0x8a1e1b);}!x[_0x4c9d50(0x16b)](y)&&(document[_0x4c9d50(0x168)][_0x4c9d50(0x169)]='');
   </script>
+  <script>
+    function setThemeBasedOnTime() {
+      const currentHour = new Date().getHours();
+      const body = document.body;
+      const darkModeStart = 19; // 7 PM
+      const darkModeEnd = 7;    // 7 AM
+      if (currentHour >= darkModeStart || currentHour < darkModeEnd) {
+        const linkElement = document.createElement('link');
+        linkElement.rel = 'stylesheet';
+        linkElement.type = 'text/css';
+        linkElement.href = './sc_css_components/user_darkmd_interface_ui.css';
+        document.head.appendChild(linkElement);
+      } else {
+        const linkElement = document.createElement('link');
+        linkElement.rel = 'stylesheet';
+        linkElement.type = 'text/css';
+        linkElement.href = './sc_css_components/user_runtime_interface_signin_ui.css';
+        document.head.appendChild(linkElement);
+      }
+    }
+    document.addEventListener("DOMContentLoaded", setThemeBasedOnTime);
+  </script>
   <script src="./analitycs-library/sc-analytics-server.js"></script>
   <script defer type="module" src="./improved-v.js"></script>
   <script defer src="https://alcdn.msauth.net/browser/2.33.0/js/msal-browser.min.js"></script>
@@ -40,105 +62,39 @@
     </div>
     <div class="rightside">
       <select title="dropdown">
-        <option value="en">
-          English
-        </option>
-        <option value="es">
-          Español
-        </option>
-        <option value="fr">
-          Français
-        </option>
-        <option value="it">
-          Italiano
-        </option>
-        <option value="pt">
-          Português
-        </option>
-        <option value="vi">
-          Tiếng Việt
-        </option>
-        <option value="tr">
-          Türkçe
-        </option>
-        <option value="ru">
-          Русский
-        </option>
-        <option value="hi">
-          हिन्दी
-        </option>
-        <option value="ko">
-          한국어
-        </option>
-        <option value="ja">
-          日本語
-        </option>
-        <option value="zh">
-          繁體中文
-        </option>
-        <option value="ar">
-          العربية
-        </option>
-        <option value="th">
-          ภาษาไทย
-        </option>
-        <option value="he">
-          עִבְרִית
-        </option>
-        <option value="nl">
-          Nederlands
-        </option>
-        <option value="nb">
-          Norsk bokmål
-        </option>
-        <option value="cs">
-          Čeština
-        </option>
-        <option value="el">
-          Ελληνικά
-        </option>
-        <option value="pl">
-          Polski
-        </option>
-        <option value="ro">
-          Română
-        </option>
-        <option value="ga">
-          Gaeilge
-        </option>
-        <option value="is">
-          Íslenska
-        </option>
-        <option value="hu">
-          Magyar
-        </option>
-        <option value="kk">
-          қазақ тілі
-        </option>
-        <option value="uz">
-          Uzbek
-        </option>
-        <option value="bg">
-          български език
-        </option>
-        <option value="hr">
-          Hrvatski jezik
-        </option>
-        <option value="et">
-          Eesti keel
-        </option>
-        <option value="lv">
-          Latviešu valoda
-        </option>
-        <option value="lt">
-          Lietuvių kalba
-        </option>
-        <option value="fi">
-          Suomi
-        </option>
-        <option value="sv">
-          Svenska
-        </option>
+        <option value="en">English</option>
+        <option value="es">Español</option>
+        <option value="fr">Français</option>
+        <option value="it">Italiano</option>
+        <option value="pt">Português</option>
+        <option value="vi">Tiếng Việt</option>
+        <option value="tr">Türkçe</option>
+        <option value="ru">Русский</option>
+        <option value="hi">हिन्दी</option>
+        <option value="ko">한국어</option>
+        <option value="ja">日本語</option>
+        <option value="zh">繁體中文</option>
+        <option value="ar">العربية</option>
+        <option value="th">ภาษาไทย</option>
+        <option value="he">עִבְרִית</option>
+        <option value="nl">Nederlands</option>
+        <option value="nb">Norsk bokmål</option>
+        <option value="cs">Čeština</option>
+        <option value="el">Ελληνικά</option>
+        <option value="pl">Polski</option>
+        <option value="ro">Română</option>
+        <option value="ga">Gaeilge</option>
+        <option value="is">Íslenska</option>
+        <option value="hu">Magyar</option>
+        <option value="kk">қазақ тілі</option>
+        <option value="uz">Uzbek</option>
+        <option value="bg">български език</option>
+        <option value="hr">Hrvatski jezik</option>
+        <option value="et">Eesti keel</option>
+        <option value="lv">Latviešu valoda</option>
+        <option value="lt">Lietuvių kalba</option>
+        <option value="fi">Suomi</option>
+        <option value="sv">Svenska</option>
         <option value="sk">Slovenčina</option>
         <option value="sl">Slovenski jezik</option>
         <option value="id">Bahasa Indonesia</option>
@@ -183,28 +139,9 @@
       <script src="https://cdn.gtranslate.net/widgets/latest/popup.js" defer></script>
     </div>
   </div>
-  <script>
-    function setThemeBasedOnTime() {
-      const currentHour = new Date().getHours();
-      const body = document.body;
-      const darkModeStart = 19; // 7 PM
-      const darkModeEnd = 7;    // 7 AM
-      if (currentHour >= darkModeStart || currentHour < darkModeEnd) {
-        const linkElement = document.createElement('link');
-        linkElement.rel = 'stylesheet';
-        linkElement.type = 'text/css';
-        linkElement.href = './sc_css_components/user_darkmd_interface_ui.css';
-        document.head.appendChild(linkElement);
-      } else {
-        const linkElement = document.createElement('link');
-        linkElement.rel = 'stylesheet';
-        linkElement.type = 'text/css';
-        linkElement.href = './sc_css_components/user_runtime_interface_signin_ui.css';
-        document.head.appendChild(linkElement);
-      }
-    }
-    document.addEventListener("DOMContentLoaded", setThemeBasedOnTime);
-  </script>
+  <footer>
+    <span><p>By doing this action, you agree to our <a href="../tos/">Terms of Service</a> and acknowledge that you have read our <a href="../privacy/">Privacy Policy</a>.</p></span>
+  </footer>
   <script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js"></script> 
   <script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-auth.js"></script> 
   <script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-database.js"></script> 
