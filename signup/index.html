@@ -8,8 +8,8 @@
     function setThemeBasedOnTime() {
       const currentHour = new Date().getHours();
       const body = document.body;
-      const darkModeStart = 19; // 7 PM
-      const darkModeEnd = 7;    // 7 AM
+      const darkModeStart = 19;
+      const darkModeEnd = 7;
       if (currentHour >= darkModeStart || currentHour < darkModeEnd) {
         const linkElement = document.createElement('link');
         linkElement.rel = 'stylesheet';
@@ -124,7 +124,7 @@
       </div>
     </form>
     <footer>
-      <span><p>By doing this action, you agree to our <a href="../tos/">Terms of Service</a> and acknowledge that you have read our <a href="../privacy/">Privacy Policy</a>.</p></span>
+      <p>By doing this action, you agree to our <a href="../tos/">Terms of Service</a> and acknowledge that you have read our <a href="../privacy/">Privacy Policy</a>.</p>
     </footer>
     <div class="gtranslate_wrapper">
       <script>
