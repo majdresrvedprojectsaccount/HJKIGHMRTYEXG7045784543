@@ -41,16 +41,13 @@
   <script defer type="module">
   import { initializeApp } from'https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js'; import { getAuth, GoogleAuthProvider, signInWithPopup } from'https://www.gstatic.com/firebasejs/11.0.2/firebase-auth.js'; const firebaseConfig = { apiKey: 'AIzaSyACvRuhCkxk9lNrweXU14MUytOG_muxAFg', authDomain: 'software-company-oauth-db.firebaseapp.com', databaseURL: 'https://software-company-oauth-db-default-rtdb.firebaseio.com', projectId: 'software-company-oauth-db', storageBucket: 'software-company-oauth-db.firebasestorage.app', messagingSenderId: '976995041868', appId: '1:976995041868:web:2eceaa048c433a5724eae9' }; const app = initializeApp(firebaseConfig); const auth = getAuth(app); auth.languageCode = 'en' const provider = new GoogleAuthProvider(); const googleLogin = document.getElementById('google-login-btn'); googleLogin.addEventListener('click', function () { signInWithPopup(auth, provider).then( (result) => { const credential = GoogleAuthProvider.credentialFromResult(result); const user = result.user; console.log(user); window.location.href = '../../u/'; } ).catch( (error) => { const errorCode = error.code; const errorMessage = error.message; } ); } ) const user = auth.currentUser; function updateUserProfile(user) { const userName = user.displayName; const userEmail = user.photoURL; document.getElementById('userName').textContent = userName; document.getElementById('userEmail').textContent = userEmail; document.getElementById('userProfilePicture').textContent = userProfilePicture; } onAuthStateChanged( auth, (user) => { if (user) { updateUserProfile(user); const uid = user.uid; return uid; } else { alert('Create Account & login'); window.location.href = './signup/'; } } ); 
   </script>
-  <script defer type="module" src="../../auth.softwarecompanycoltd.com/authproviders/microsoftsystem/index.js"></script>
-  <script defer type="module" src="../../auth.softwarecompanycoltd.com/authproviders/githubsystem/index.js"></script>
-  <script defer type="module" src="../../auth.softwarecompanycoltd.com/authproviders/applesystem/index.js"></script>
-  <script defer src="./auth/action-shecker.js"></script>
   <script>
   if ('serviceWorker' in navigator) { navigator.serviceWorker.register('../sw.js') .then(() => console.log('Service Worker registered')) .catch((error) => console.error('Service Worker registration failed:', error)); } 
   </script>
-  <link rel="manifest" href="./manifest/index.json">
-  <script crossorigin="" src="https://unpkg.com/react@18/umd/react.development.js"></script>
-  <script crossorigin="" src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script crossorigin="anonymous" src="./query/auth.softwarecompanycoltd.com.js"></script>
+  <script crossorigin="anonymous" src="../manifest.tree.softwarecompany.com/target?id-linker.js"></script>
+  <script crossorigin="anonymous" src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin="anonymous" src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 </head>
 <body class="light-mode">
   <header>
@@ -118,18 +115,60 @@
         <button type="submit" style="font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';" id="loginButton">Login</button>
       </div>
       <div class="divider-container">
-        <div class="line" id="line"></div><span class="text" style="font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; color: #454747;">OU</span>
+        <div class="line" id="line"></div>
+        <span class="text" style="font-family: 'Software-Company-Co.,-Ltd.-Font-Bold'; color: #454747;">OR</span>
         <div class="line" id="line"></div>
       </div>
       <div class="social-body">
         <div class="social-section">
-          <a class="social-btn" id="google-login-btn"><span class="social-logo-wrapper"><img class="social-logo" src="../icons/socialauthsection/Google-Logo-By-The-Software-Company-Team.png" alt="logo Google"></span><span class="social-text" style="font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';">Continue With Google</span></a><a class="social-btn" id="ms-signin"><span class="social-logo-wrapper"><img class="social-logo" src="../icons/socialauthsection/Microsoft-Logo-By-The-Software-Company-Team.png" alt="logo Microsoft"></span><span class="social-text" style="font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';">Continue With Microsoft</span></a><a class="social-btn" id="github-login"><span class="social-logo-wrapper"><img class="social-logo" src="../icons/socialauthsection/Github-Icon-by-The-Software-Company-Team.png" alt="logo Microsoft"></span><span class="social-text" style="font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';">Continue With Github</span></a><a class="social-btn" id="apple-login"><span class="social-logo-wrapper"><img class="social-logo" src="../icons/socialauthsection/Apple-Logo-By-The-Software-Company-Team.png" alt="logo Apple"></span><span class="social-text" style="font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';">Continue With Apple</span></a>
+          <a class="social-btn" id="google-login-btn">
+            <span class="social-logo-wrapper">
+              <img class="social-logo" src="../icons/socialauthsection/Google-Logo-By-The-Software-Company-Team.png" alt="logo Google">
+            </span>
+            <span class="social-text" style="font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';">
+              Continue With Google
+            </span>
+          </a>
+          <a class="social-btn" id="ms-signin">
+            <span class="social-logo-wrapper">
+              <img class="social-logo" src="../icons/socialauthsection/Microsoft-Logo-By-The-Software-Company-Team.png" alt="logo Microsoft">
+            </span>
+            <span class="social-text" style="font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';">
+              Continue With Microsoft
+            </span>
+          </a>
+          <a class="social-btn" id="github-login">
+            <span class="social-logo-wrapper">
+              <img class="social-logo" src="../icons/socialauthsection/Github-Icon-by-The-Software-Company-Team.png" alt="logo Microsoft">
+            </span>
+            <span class="social-text" style="font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';">
+              Continue With Github
+            </span>
+          </a>
+          <a class="social-btn" id="apple-login">
+            <span class="social-logo-wrapper">
+              <img class="social-logo" src="../icons/socialauthsection/Apple-Logo-By-The-Software-Company-Team.png" alt="logo Apple">
+            </span>
+            <span class="social-text" style="font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';">
+              Continue With Apple
+            </span>
+          </a>
         </div>
       </div>
       <div class="new-account">
-        <p style="font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';">Are You New? <a href="../signup/" id="Link-B" style="font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';">Create Account</a></p>
-        <p style="text-align: center;"><a href="../../terms/" id="Link-B" style="font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';"></a></p>
-        <p class="links"><a href="../../email-recovery/" id="Link-C" style="font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';"></a><a href="../../documentations/" id="Link-D" style="font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';"></a></p>
+        <p style="font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';">
+          Are You New?
+          <a href="../signup/" id="Link-B" style="font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';">
+            Create Account
+          </a>
+        </p>
+        <p style="text-align: center;">
+          <a href="../../terms/" id="Link-B" style="font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';"></a>
+        </p>
+        <p class="links">
+          <a href="../../email-recovery/" id="Link-C" style="font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';"></a>
+          <a href="../../documentations/" id="Link-D" style="font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';"></a>
+        </p>
       </div>
     </form>
     <div class="gtranslate_wrapper">

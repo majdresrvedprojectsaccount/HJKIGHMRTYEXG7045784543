@@ -1,0 +1,4 @@
+// ======================================================
+// © 2025 Software Company Co., Ltd. All rights reserved.   
+// ======================================================
+const msalConfig = {auth:{clientId:'YOUR_CLIENT_ID',authority:'https://login.microsoftonline.com/YOUR_TENANT_ID',redirectUri:'https://yourapp.com/callback'}};const msalInstance = new msal.PublicClientApplication(msalConfig); const loginRequest = { scopes: ['User.Read'] }; document.getElementById('microsoft').addEventListener('click', () => { msalInstance.loginPopup(loginRequest).then(response => { console.log('Login Successful:', response); const idToken = response.idToken; }).catch(error => { console.error('Login Failed:', error); }); }); const axios = require('axios'); async function getUserData(accessToken) { const response = await axios.get('https://graph.microsoft.com/v1.0/me', { headers: { Authorization: `Bearer ${accessToken}` } }); return response.data; }
