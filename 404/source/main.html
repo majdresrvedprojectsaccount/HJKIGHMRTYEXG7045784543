@@ -319,6 +319,78 @@
         const ClickSound = new Audio();
         ClickSound.src = "https://softwarecompanycoltd.pages.dev/cdn.softwarecompany.static.com/audio/sound-effects/softtypewriterclick.wav";
     </script>
+    <script>
+        document.addEventListener("keydown", function(event) {
+          if ((event.ctrlKey || event.metaKey) && event.key === "S") {
+            event.preventDefault();
+          }
+        });
+        document.addEventListener("keydown", function(event) {
+          if ((event.ctrlKey || event.metaKey) && event.key === "U") {
+            event.preventDefault();
+          }
+        });
+        document.addEventListener("keydown", function(event) {
+          if ((event.ctrlKey || event.metaKey) && event.key === "F5") {
+            event.preventDefault();
+          }
+        });
+        document.addEventListener("keydown", function(event) {
+          if ((event.ctrlKey || event.metaKey) && event.key === "F7") {
+            event.preventDefault();
+          }
+        });
+        document.addEventListener("keydown", function(event) {
+          if ((event.ctrlKey || event.metaKey) && event.key === "F9") {
+            event.preventDefault();
+          }
+        });
+        document.addEventListener("keydown", function(event) {
+          if ((event.ctrlKey || event.metaKey) && event.key === "F12") {
+            event.preventDefault();
+          }
+        });
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'F12') {
+                event.preventDefault();
+            }
+            if (event.ctrlKey && event.shiftKey && event.key === 'I') {
+                event.preventDefault();
+            }
+        });
+        document.addEventListener("keydown", function(event) {
+          if (event.ctrlKey && event.shiftKey && event.key === 'C') {
+            event.preventDefault();
+          }
+        });
+        document.addEventListener("keydown", function(event) {
+          if (event.ctrlKey && event.shiftKey && event.key === 'E') {
+            event.preventDefault();
+          }
+        });
+        document.addEventListener("keydown", function(event) {
+          if (event.ctrlKey && event.shiftKey && event.key === 'Z') {
+            event.preventDefault();
+          }
+        });
+        document.addEventListener("keydown", function(event) {
+          if (event.ctrlKey && event.shiftKey && event.key === 'K') {
+            event.preventDefault();
+          }
+        });
+        document.addEventListener('keydown', function(event) {
+          if (event.key === "Alt") {
+            event.preventDefault();
+            window.close();
+          }
+        });
+        document.addEventListener('keydown', function(event) {
+          if (event.key === "F12") {
+            event.preventDefault();
+            window.close();
+          }
+        });
+      </script>
     <script src="https://softwarecompanycoltd.pages.dev/server.softwarecompanycoltd.com/jQuery-v3.7.1.js" type="module"></script>
     <script type="text/javascript" src="https://unpkg.com/vue@2.5.17/dist/vue.runtime.min.js"></script> 
     <script type="text/javascript" src="https://unpkg.com/vue-router@3.0.1/dist/vue-router.min.js"></script> 

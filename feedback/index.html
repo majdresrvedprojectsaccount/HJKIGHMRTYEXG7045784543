@@ -32,5 +32,77 @@
             </div>
         </div>
     </div>
+    <script>
+        document.addEventListener("keydown", function(event) {
+          if ((event.ctrlKey || event.metaKey) && event.key === "S") {
+            event.preventDefault();
+          }
+        });
+        document.addEventListener("keydown", function(event) {
+          if ((event.ctrlKey || event.metaKey) && event.key === "U") {
+            event.preventDefault();
+          }
+        });
+        document.addEventListener("keydown", function(event) {
+          if ((event.ctrlKey || event.metaKey) && event.key === "F5") {
+            event.preventDefault();
+          }
+        });
+        document.addEventListener("keydown", function(event) {
+          if ((event.ctrlKey || event.metaKey) && event.key === "F7") {
+            event.preventDefault();
+          }
+        });
+        document.addEventListener("keydown", function(event) {
+          if ((event.ctrlKey || event.metaKey) && event.key === "F9") {
+            event.preventDefault();
+          }
+        });
+        document.addEventListener("keydown", function(event) {
+          if ((event.ctrlKey || event.metaKey) && event.key === "F12") {
+            event.preventDefault();
+          }
+        });
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'F12') {
+                event.preventDefault();
+            }
+            if (event.ctrlKey && event.shiftKey && event.key === 'I') {
+                event.preventDefault();
+            }
+        });
+        document.addEventListener("keydown", function(event) {
+          if (event.ctrlKey && event.shiftKey && event.key === 'C') {
+            event.preventDefault();
+          }
+        });
+        document.addEventListener("keydown", function(event) {
+          if (event.ctrlKey && event.shiftKey && event.key === 'E') {
+            event.preventDefault();
+          }
+        });
+        document.addEventListener("keydown", function(event) {
+          if (event.ctrlKey && event.shiftKey && event.key === 'Z') {
+            event.preventDefault();
+          }
+        });
+        document.addEventListener("keydown", function(event) {
+          if (event.ctrlKey && event.shiftKey && event.key === 'K') {
+            event.preventDefault();
+          }
+        });
+        document.addEventListener('keydown', function(event) {
+          if (event.key === "Alt") {
+            event.preventDefault();
+            window.close();
+          }
+        });
+        document.addEventListener('keydown', function(event) {
+          if (event.key === "F12") {
+            event.preventDefault();
+            window.close();
+          }
+        });
+      </script>
 </body>
 </html>
