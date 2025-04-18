@@ -1,0 +1,796 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:#000;
+    color:#f4f4f4;
+    font-family:'Software-Company-Co.,-Ltd.-Font-Bold'
+  }
+  :root {
+      --sc-text-fontpathname:'Software-Company-Co.,-Ltd.-Font-Bold';
+      --sc-cursor-default:url('../../cdn.softwarecompany.static.com/cursors/light/16px/default.png'),auto;
+      --sc-green-techcolor-main:#00f400;
+      --sc-bluer-techcolor-unmatched:blue;
+      --sc-seablue-techcolor:#00a2e8;
+      --sc-brightwhite-techcolor:#fff;
+      --sc-white-texhcolor:#fff4f4;
+      --sc-normalwithe-techcolor:#ffffff;
+      --sc-darkedgrey-techcolor:#333;
+      --sc-deepblack-techcolor:#000000;
+      --sc-grayed-techcolor: #454747;
+      --sc-normalblack-techcolor: #000;
+      --sc-0-pixel-colorexpererience:0px;
+      --sc-1-pixel-colorexpererience:1px;
+      --sc-2-pixel-colorexpererience:2px;
+      --sc-3-pixel-colorexpererience:3px;
+      --sc-4-pixel-colorexpererience:4px;
+      --sc-5-pixel-colorexpererience:5px;
+      --sc-6-pixel-colorexpererience:6px;
+      --sc-8-pixel-colorexpererience:8px;
+      --sc-9-pixel-colorexpererience:9px;
+      --sc-10-pixel-colorexpererience:10px;
+      --sc-12-pixel-colorexpererience:12px;
+      --sc-14-pixel-colorexpererience:14px;
+      --sc-15-pixel-colorexperience:15px;
+      --sc-16-pixel-colorexperience:16px;
+      --sc-17-pixel-colorexperience:17px;
+      --sc-19-pixel-colorexperience:19px;
+      --sc-20-pixel-colorexperience:20px;
+      --sc-25-pixel-colorexperience:25px;
+      --sc-27-pixel-colorexperience:27px;
+      --sc-40-piixel-colorexperience:40px;
+      --sc-52-pixel-colorexperience:52px;
+      --sc-100-pixel-colorexperience:100px;
+      --sc-198-pixel-colorexperience:198px;
+      --sc-200-pixel-colorexperience:200px;
+      --sc-400-pixel-colorexperience:400px;
+      --sc-1200-pixel-colorexperience:1200px;
+      --sc-100-percentage-colorspace:100%
+    }
+  @font-face {
+    font-family:'Software-Company-Co.,-Ltd.-Font-Bold';
+    src:url(https://softwarecompanycoltd.pages.dev/cdn.softwarecompany.static.com/fonts/Sonyo-Bold)format('truetype')
+  }
+  .sc-css-home-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content:center;
+    background-color: rgba(71, 71, 71, 0.3);
+    backdrop-filter: blur(10px);
+    opacity:1;
+    height: 57px;
+    width: 100%;
+    border-bottom:1px solid rgba(71, 71, 71, 0.18);
+    position: fixed;
+    top: 0px;
+  }
+  .sc-css-home-header .sc-css-home-header-main-sec {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    height: 40px;
+    margin-left: 20px;
+  }
+  .sc-css-home-header .sc-css-home-header-main-sec .logodiv p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    margin-right: 10px;
+    user-select: none;
+    color: #00a2e8;
+    font-size: 17px;
+  }
+  .sc-css-home-header .sc-css-home-header-main-sec .activitybuttons {
+    user-select: none;
+  }
+  .sc-css-home-header .sc-css-home-header-main-sec .activitybuttons button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    color: #f4f4f4;
+    margin-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 8px;
+    padding-left: 8px;
+    border:1px solid;
+      border-top-color: currentcolor;
+      border-right-color: currentcolor;
+      border-bottom-color: currentcolor;
+      border-left-color: currentcolor;
+    border-color:rgba(214, 204, 204, 0.596);
+    background-color: transparent;
+    border-radius:4px;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+  }
+  .headerwrapper h1 {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-right: 20px;
+      margin-left: 20px;
+      text-align: center;
+  }
+  .headerwrapper .buttonwrapper {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-right: 20px;
+      margin-left: 20px;
+  }
+  .headerwrapper .buttonwrapper #startproject:hover {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-left: 5px;
+      margin-right: 5px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-right: 30px;
+      padding-left: 30px;
+      border:1px solid #00a2e8;
+      border-color:#00a2e888;
+      color: #f4f4f4;
+      border-radius:4px;
+      cursor: pointer;
+      font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+  }
+  .headerwrapper .buttonwrapper #startproject {
+      font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+      color: #f4f4f4;
+      background-color: #00a2e888;
+      border-radius:4px;
+      font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-left: 5px;
+      margin-right: 5px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-right: 30px;
+      padding-left: 30px;
+      border:1px solid #00a2e8;
+  }
+  .headerwrapper .buttonwrapper #explore {
+      font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+      border-color:#454747;
+      color: #454747;
+      background-color:transparent;
+      border-radius:4px;
+      font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-left: 5px;
+      margin-right: 5px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-right: 30px;
+      padding-left: 30px;
+      border:1px solid;
+  }
+  .headerwrapper .buttonwrapper #explore:hover {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-left: 5px;
+      margin-right: 5px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-right: 30px;
+      padding-left: 30px;
+      border: 1px solid;
+      border-color:#f4f4f4;
+      color: #00a2e8;
+      background-color:transparent;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+  }
+  .sc-css-home-header .sc-css-home-header-main-sec .activitybuttons button:hover {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 8px;
+    padding-left: 8px;
+    border:1px solid;
+      border-top-color: currentcolor;
+      border-right-color: currentcolor;
+      border-bottom-color: currentcolor;
+      border-left-color: currentcolor;
+    border-color:rgba(214, 204, 204, 0.596);
+    background-color: transparent;
+    border-radius:4px;
+    cursor: pointer;
+    color: #00a2e8;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+  }
+  .spacebuttons {
+    height: 40px;
+    width: auto;
+    margin-top: 6px;
+    margin-left: 60px;
+    margin-right: 25px;
+  }
+  .spacebuttons button:hover {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 8px;
+    padding-left: 8px;
+    border:1px solid;
+      border-top-color: currentcolor;
+      border-right-color: currentcolor;
+      border-bottom-color: currentcolor;
+      border-left-color: currentcolor;
+    border-color:rgba(214, 204, 204, 0.596);
+    background-color: transparent;
+    border-radius:4px;
+    cursor: pointer;
+    color: #00a2e8;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+  }
+  .spacebuttons button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    color: #f4f4f4;
+    margin-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 8px;
+    padding-left: 8px;
+    border:1px solid;
+    border-color:rgba(214, 204, 204, 0.596);
+    background-color: transparent;
+    border-radius:4px;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+  }
+  .spacebuttons #dashboard {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 8px;
+    padding-left: 8px;
+    border:1px solid;
+      border-top-color: currentcolor;
+      border-right-color: currentcolor;
+      border-bottom-color: currentcolor;
+      border-left-color: currentcolor;
+    border-color:rgba(71, 71, 71, 0.25);
+    color: #f4f4f4;
+    background-color: #00a2e888;
+    border-radius:4px;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+  }
+  .spacebuttons #dashboard:hover{
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-left:5px;
+    margin-right:5px;
+    padding-top:2px;
+    padding-bottom:2px;
+    padding-right:8px;
+    padding-left:8px;
+    border:1px solid;
+    border-color:rgba(71, 71, 71, 0.25);
+    color:#f4f4f4;
+    background-color:#00a2e8;
+    border-radius:4px;
+    cursor:pointer;
+    font-family:'Software-Company-Co.,-Ltd.-Font-Bold';
+  }
+  .sc-css-third-section-part {
+    border-top:1px solid #454747;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-content:center;
+    align-items:center;
+    background-color:#000;
+    height:auto;
+    padding:0px 40px;
+  }
+  .sc-css-anotation-div {
+    border-top:1px solid #454747;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-content:center;
+    align-items:center;
+    background-color:#000;
+    color:#f4f4f4;
+    height:auto;
+    padding:0px 40px;
+  }
+  .sc-css-third-section-part .sc-first-part-content{
+    height: 95px;
+    width: 450px;
+    padding:10px 40px;
+    flex-wrap:wrap;
+    border-left: 1px solid #454747;
+    border-right: 1px solid #454747;
+    border-bottom: 1px solid #454747;
+    margin-bottom: 45px;
+  }
+  .sc-css-third-section-part .sc-first-part-content:hover{
+    height: 95px;
+    width: 450px;
+    border-left: 1px solid #00a2e8;
+    border-right: 1px solid #00a2e8;
+    border-bottom: 1px solid #00a2e8;
+    margin-bottom: 45px;
+  }
+  .sc-css-third-section-part .sc-css-second-part-content{
+    height: 95px;
+    width: 450px;
+    padding:10px 40px;
+    flex-wrap:wrap;
+    border-left: 0px solid #454747;
+    border-right: 1px solid #454747;
+    border-bottom: 1px solid #454747;
+    margin-bottom: 45px;
+  }
+  .sc-css-third-section-part .sc-css-second-part-content:hover{
+    height:95px;
+    width:450px;
+    border-left:1px solid #00a2e8;
+    border-right:1px solid #00a2e8;
+    border-bottom:1px solid #00a2e8;
+    margin-bottom:45px
+  }
+  .sc-css-home-footer{
+    background-color:#000;
+    margin:0px;
+    padding:15px;
+    display:flex;
+    flex-direction:row;
+    color:#fff
+  }
+  .sc-css-inner-footer-erea {
+    display:flex;
+    justify-content:space-between;
+    padding:15px;
+    max-width:1200px;
+    background-color:#000;
+    margin:0 auto;
+    flex-wrap:wrap;
+  }
+  .sc-css-footer-column{
+    flex:1;
+    padding:15px;
+    min-width:200px;
+  }
+  .sc-css-footer-column h3{
+    color:#00a2e8;
+    font-size:19px;
+    margin-top:20px;
+    text-decoration:none;
+    font-family:555;
+    margin-bottom:15px;
+  }
+  .sc-css-social-footer-section{
+    border-top:1px solid #454747;
+    border-bottom:1px solid #454747;
+    display:flex;
+    color:#f4f4f4;
+    flex-direction:row;
+    justify-content:center;
+    align-content:center;
+    align-items:center;
+    background-color:#000;
+    height:auto;
+    padding:0px 40px;
+  }
+  .sc-css-home-footer .sc-css-inner-footer-erea .sc-css-company-logo-area {
+    height:52px;
+    width:198;
+    margin-right:20px;
+    margin-top:27px;
+    height:52px;
+    width:198;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color:transparent;
+    border-radius:6px;
+    border:1px solid transparent;
+  }
+  .sc-css-download-apps-section{
+    background-color:#000;
+    border-top:1px solid #454747;
+  }
+  .sc-css-download-apps-section:hover{
+    background-color:#000;
+    border-top:1px solid #00a2e8;
+  }
+  .sc-css-download-apps-section .sc-css-download-now-section h3 {
+    font-size:29px;
+    text-align:center;
+    color:#00a2e8;
+    margin-top:0px;
+    padding-top:12px;
+    margin-bottom:0px;
+    padding-bottom:10px;
+    align-items: center;
+    padding-top:12px;
+  }
+  .apps-bar-section {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    background-color:#000;
+    margin-right:0px;
+    margin-left:0px;
+    margin-bottom:0px;
+    padding-bottom:15px;
+    border-color:#454747;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+  }
+  .apps-bar-section:hover {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    background-color:#000;
+    margin-right:0px;
+    margin-left:0px;
+    margin-bottom:0px;
+    padding-bottom:15px;
+    border-color:#00a2e8;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+  }
+  .download-btns .ankher-tag {
+    cursor: url('https://softwarecompanycoltd.pages.dev/cdn.softwarecompany.static.com/cursors/light/16px/link.png'),auto;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .download-btns .ankher-tag img {
+    cursor: url('https://softwarecompanycoltd.pages.dev/cdn.softwarecompany.static.com/cursors/light/16px/link.png'),auto;
+    width: 164px;
+    height:52px;
+    background-color:#000;
+    margin-right:4px;
+    margin-right:4px;
+    border:1px solid #454747;
+    border-radius:8px;
+  }
+  .download-btns .ankher-tag img:hover {
+    cursor: url('https://softwarecompanycoltd.pages.dev/cdn.softwarecompany.static.com/cursors/light/16px/link.png'),auto;
+    width: 164px;
+    height:52px;
+    background-color:#000;
+    margin-right:4px;
+    margin-right:4px;
+    border:1px solid #00a2e8;
+    border-radius:8px;
+  }
+  .tooltiper {
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%) scale(0.8);
+    opacity: 0;
+    background-color:#333;
+    color:#f4f4f4;
+    padding:8px 12px;
+    border-radius:4px;
+    font-size:14px;
+    white-space:nowrap;
+    font-family:'Software-Company-Co.,-Ltd.-Font-Bold';
+    transition:opacity 0.3s ease,transform 0.3s ease;
+    pointer-events: none;
+  }
+  .ankher-tag:hover .tooltiper {
+    opacity:1;
+    font-family:'Software-Company-Co.,-Ltd.-Font-Bold';
+    transform:translateX(-50%) scale(1)
+  }
+  .tooltiper::after {
+    content: "";
+    position: absolute;
+    top:100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width:6px;
+    border-style:solid;
+    font-family:'Software-Company-Co.,-Ltd.-Font-Bold';
+    border-color:#333 transparent transparent transparent;
+  }
+  .sc-css-main-container-erea{
+    background-color:#000;
+    display: flex;
+    flex-direction: row;
+  }
+  .sc-css-footer-column ul{
+    padding:0px;
+  }
+  .sc-css-footer-column ul li a {
+      color:#f4f4f4;
+      text-decoration:none;
+      text-align: left;
+      font-size:17px;
+  }
+  .sc-css-footer-column ul li {
+      margin-bottom:10px;
+      color:#f4f4f4;
+      text-decoration:none;
+      padding-left:0px;
+      gap:10px;
+      font-size:17px;
+  }
+  .sc-css-footer-column ul li{
+    list-style: none;
+    text-align: left;
+  }
+  .sc-css-footer-column ul li a:hover {
+      cursor: url('https://softwarecompanycoltd.pages.dev/cdn.softwarecompany.static.com/cursors/light/16px/link.png'),auto;
+      background-color: rgba(255,244,244,0.2);
+      border-color:transparent;
+      border-radius:4px;
+      padding-left:8px;
+      padding-right:8px;
+  }
+  .sc-css-header-wrapper {
+      padding-top:90px;
+      justify-content: center;
+      text-align: center;
+  }
+  .sc-css-header-wrapper p{
+    margin:10px;
+    height:14px;
+  }
+  .sc-css-header-wrapper h1{
+      margin-top:20px;
+      margin-bottom: 20px;
+      margin-right: 20px;
+      margin-left: 20px;
+      text-align: center;
+  }
+  .buttonwrapper #startproject:hover {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border:1px solid #00a2e8;
+    border-top-color: rgb(0, 162, 232);
+    border-right-color: rgb(0, 162, 232);
+    border-bottom-color: rgb(0, 162, 232);
+    border-left-color: rgb(0, 162, 232);
+    border-color:#00a2e888;
+    color: #f4f4f4;
+    border-radius:4px;
+    cursor: pointer;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+  }
+  .buttonwrapper #startproject {
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+    color: #f4f4f4;
+    background-color: #00a2e888;
+    border-radius:4px;
+    font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border:1px solid #00a2e8;
+  }
+  .buttonwrapper #explore:hover {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-left: 5px;
+      margin-right: 5px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-right: 30px;
+      padding-left: 30px;
+      border:1px solid;
+        border-top-color: currentcolor;
+        border-right-color: currentcolor;
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+      border-color:#f4f4f4;
+      color: #00a2e8;
+      background-color: transparent;
+      border-radius:4px;
+      cursor: pointer;
+      font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+  }
+  .buttonwrapper #explore {
+      font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+      border-color:#454747;
+      color: #454747;
+      background-color: transparent;
+      border-radius:4px;
+      font-family: 'Software-Company-Co.,-Ltd.-Font-Bold';
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-left: 5px;
+      margin-right: 5px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-right: 30px;
+      padding-left: 30px;
+      border:1px solid;
+  }
+  .sc-css-search-bar {
+      height: 32px;
+      width: 250px;
+      border:1px solid #454747;
+      border-radius:5px;
+      padding:5px;
+      background-color: rgba(244,244,244,0.1);
+  }
+  
+  /*-  -*/
+  .sc-css-anotation-div:hover {
+    border-top:1px solid #00a2e8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #f4f4f4;
+    height: auto;
+    padding:0px 40px;
+  }
+  .sc-css-social-footer-section:hover {
+    border-top:1px solid #00a2e8;
+    border-bottom:1px solid #00a2e8;
+    display: flex;
+    color: #f4f4f4;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #000;
+    height: auto;
+    padding:0px 40px;
+  }
+  .sc-css-third-section-part:hover {
+    border-top:1px solid #00a2e8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #000;
+    height: auto;
+    padding:0px 40px;
+  }
+  .dropdown-container {
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'),auto;
+    position: relative;
+    display: inline-block;
+    margin-top: var(--sc-0-pixel-colorexpererience);
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-bottom: var(--sc-0-pixel-colorexpererience);
+  }
+  .dropdown-button::after {
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'),auto;
+    content: '▼';
+    font-size: var(--sc-12-pixel-colorexpererience);
+    position: absolute;
+    right: var(--sc-15-pixel-colorexperience);
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .dropdown-button {
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'),auto;
+    background-color: #1c1c1c;
+    color: white;
+    font-size: var(--sc-16-pixel-colorexperience);
+    padding: var(--sc-10-pixel-colorexpererience) var(--sc-40-piixel-colorexperience) var(--sc-10-pixel-colorexpererience) var(--sc-15-pixel-colorexperience);
+    border: var(--sc-1-pixel-colorexpererience) solid #4a4a4a;
+    border-radius: var(--sc-5-pixel-colorexpererience);
+    cursor: pointer;
+    position: relative;
+    width: 146px;
+    color: var(--sc-white-texhcolor);
+    font-family: var(--sc-text-fontpathname);
+  }
+  .dropdown-options {
+    display: none;
+    position: absolute;
+    background-color: #1c1c1c;
+    min-width: var(--sc-100-percentage-colorspace);
+    box-shadow: var(--sc-0-pixel-colorexpererience) var(--sc-8-pixel-colorexpererience) var(--sc-16-pixel-colorexperience) rgba(0,0,0,0.2);
+    z-index: 1;
+    bottom: var(--sc-100-percentage-colorspace);
+    max-height: 460px;
+    overflow-y: auto;
+    border-radius: var(--sc-4-pixel-colorexpererience);
+  }
+  .dropdown-options a {
+    color: var(--sc-seablue-techcolor);
+    padding: var(--sc-10-pixel-colorexpererience) var(--sc-15-pixel-colorexperience);
+    background-color: rgba(71,71,71,0.0);
+    text-decoration:none;
+    display: block;
+    font-size: var(--sc-16-pixel-colorexperience);
+    border-bottom: var(--sc-1-pixel-colorexpererience) solid #4a4a4a;
+    color: var(--sc-seablue-techcolor);
+    font-family: var(--sc-text-fontpathname);
+  }
+  .dropdown-container {
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'),auto;
+  }
+  .sc-css-middle-section-content{
+    display:flex;
+    flex-direction:row;
+    border-top:1px solid #454747;
+    height:500px;
+    width:100%;
+  }
+  .dropdown-button::after {
+    cursor: url('../../cdn.softwarecompany.static.com/cursors/light/16px/link.png'),auto;
+    content: '▼';
+    font-size: var(--sc-12-pixel-colorexpererience);
+    position: absolute;
+    right: var(--sc-15-pixel-colorexperience);
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .image-chaddy:hover {
+    height:95px;
+    width:200px;
+    border-left:1px solid #00a2e8;
+    border-right:1px solid #00a2e8;
+    border-bottom:1px solid #00a2e8;
+    cursor:pointer;
+    margin-bottom:45px;
+  }
+  .image-chaddy {
+    height:95px;
+    width:200px;
+    flex-wrap:wrap;
+    border-left:1px solid #454747;
+    border-right:1px solid #454747;
+    border-bottom:1px solid #454747;
+    margin-bottom: 45px;
+  }
+  
+  .ds-image-chaddy:hover {
+    height:450px;
+    width:1000px;
+    border-left:1px solid #00a2e8;
+    border-right:1px solid #00a2e8;
+    border-bottom:1px solid #00a2e8;
+    cursor:pointer;
+    margin-bottom:45px;
+  }
+  .ds-image-chaddy {
+    height:450px;
+    width:1000px;
+    flex-wrap:wrap;
+    border-left:1px solid #454747;
+    border-right:1px solid #454747;
+    border-bottom:1px solid #454747;
+    margin-bottom: 45px;
+  }
