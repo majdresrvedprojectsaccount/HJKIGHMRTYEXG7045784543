@@ -766,31 +766,6 @@ body{
     cursor:pointer;
     margin-bottom:45px;
   }
-  .image-chaddy {
-    height:95px;
-    width:200px;
-    flex-wrap:wrap;
-    border-left:1px solid #454747;
-    border-right:1px solid #454747;
-    border-bottom:1px solid #454747;
-    margin-bottom: 45px;
-  }
-  
-  .ds-image-chaddy:hover {
-    height:450px;
-    width:1000px;
-    border-left:1px solid #00a2e8;
-    border-right:1px solid #00a2e8;
-    border-bottom:1px solid #00a2e8;
-    cursor:pointer;
-    margin-bottom:45px;
-  }
-  .ds-image-chaddy {
-    height:450px;
-    width:1000px;
-    flex-wrap:wrap;
-    border-left:1px solid #454747;
-    border-right:1px solid #454747;
-    border-bottom:1px solid #454747;
-    margin-bottom: 45px;
-  }
+.image-chaddy{height:95px;width:200px;flex-wrap:wrap;border-left:1px solid #454747;border-right:1px solid #454747;border-bottom:1px solid #454747;margin-bottom:45px}  
+.ds-image-chaddy:hover{height:450px;width:1000px;border-left:1px solid #00a2e8;border-right:1px solid #00a2e8;border-bottom:1px solid #00a2e8;cursor:pointer;margin-bottom:45px}
+.ds-image-chaddy{height:450px;width:1000px;flex-wrap:wrap;border-left:1px solid #454747;border-right:1px solid #454747;border-bottom:1px solid #454747;margin-bottom:45px}
