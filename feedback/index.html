@@ -1,108 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<!doctype html>
+<html lang="auto" sc-fb-app-scheme="auto" sys-view="true" sc-db-content-import="true" sc-data-transfer-protocol="true" sc-server-side-proccessing="true">
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FeedBack - Software Company Co., Ltd.</title>
-    <link rel="stylesheet" href="./stylesheets/stylesheet.css">
-</head>
-<body>
-    <div class="pagebody">
-        <div class="imagewrapper">
-            <img src="#" alt="">
+    <link rel="icon" sizes="16x16" href="https://softwarecompanycoltd.pages.dev/cdn.softwarecompany.static.com/icons/webapp/16px/logo.png">
+    <link rel="icon" sizes="32x32" href="https://softwarecompanycoltd.pages.dev/cdn.softwarecompany.static.com/icons/webapp/32px/logo.png">
+    <link rel="icon" sizes="60x60" href="https://softwarecompanycoltd.pages.dev/cdn.softwarecompany.static.com/icons/webapp/60px/logo.png">
+    <link rel="icon" sizes="64x64" href="https://softwarecompanycoltd.pages.dev/cdn.softwarecompany.static.com/icons/webapp/64px/logo.png">
+    <link rel="icon" sizes="90x90" href="https://softwarecompanycoltd.pages.dev/cdn.softwarecompany.static.com/icons/webapp/90px/logo.png">
+    <link rel="icon" sizes="128x128" href="https://softwarecompanycoltd.pages.dev/cdn.softwarecompany.static.com/icons/webapp/128px/logo.png">
+    <link rel="icon" sizes="192x192" href="https://softwarecompanycoltd.pages.dev/cdn.softwarecompany.static.com/icons/webapp/192px/logo.png">
+    <link rel="icon" sizes="512x512" href="https://softwarecompanycoltd.pages.dev/cdn.softwarecompany.static.com/icons/webapp/512px/logo.png">
+    <link rel="apple-touch-icon" sizes="16x16" href="https://softwarecompanycoltd.pages.dev/cdn.softwarecompany.static.com/icons/webapp/16px/logo.png">
+    <link rel="apple-touch-icon" sizes="32x32" href="https://softwarecompanycoltd.pages.dev/cdn.softwarecompany.static.com/icons/webapp/32px/logo.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://softwarecompanycoltd.pages.dev/cdn.softwarecompany.static.com/icons/webapp/60px/logo.png">
+    <link rel="apple-touch-icon" sizes="64x64" href="https://softwarecompanycoltd.pages.dev/cdn.softwarecompany.static.com/icons/webapp/64px/logo.png">
+    <link rel="apple-touch-icon" sizes="90x90" href="https://softwarecompanycoltd.pages.dev/cdn.softwarecompany.static.com/icons/webapp/90px/logo.png">
+    <link rel="apple-touch-icon" sizes="128x128" href="https://softwarecompanycoltd.pages.dev/cdn.softwarecompany.static.com/icons/webapp/128px/logo.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="https://softwarecompanycoltd.pages.dev/cdn.softwarecompany.static.com/icons/webapp/192px/logo.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="https://softwarecompanycoltd.pages.dev/cdn.softwarecompany.static.com/icons/webapp/512px/logo.png">
+    <link rel="stylesheet" href="./css/sc-feedback-css.css" type="text/css" itemid="sc-feedback-css" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/sc-root-palette.css" type="text/css" itemid="sc-feedback-css" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/sc-e-media-screen.css" type="text/css" itemid="sc-feedback-css" crossorigin="anonymous">
+    <style type="text/css">::selection{background-color:#00a2e888;color:#f4f4f4}</style>
+    <style type="text/css">:host{display:block}</style>
+  </head>
+  <body id="root" itemid="sc-app-connect-state" sc-data-theme="enabled" category="main-app" sc-css-apply="sc-page-body">
+    <div id="sc-feedback-app" itemid="sc-feedback-app-html-page-code" sc-css-apply="sc-feedback-app">
+      <div class="sc-img-div" sc-css-apply="sc-img-div">
+        <img class="sc-main-img" src="./assets/images/feedback.png" alt="mask" sc-css-apply="sc-main-img">
+      </div>
+      <div class="sc-main-content" sc-css-apply="sc-main-content">
+        <div class="sc-form" sc-css-apply="sc-form">
+          <div class="feedbacktitle" sc-css-apply="feedbacktitle">
+            <h4 sc-css-apply="h4">FeedBack</h4>
+          </div>
+          <p sc-css-apply="p">The Software Company FeedBack page Helps you Fix your issues and report your problems, and new ideas, generale suggestions and coments</p>
+          <p sc-css-apply="p">The FeedBack it will not be Shared:</p>
+          <textarea id="feedbackcontent" placeholder="Describe Your FeedBack Here..."></textarea>
+          <button id="sc-submit-request">Send</button>
         </div>
-        <div class="contentbody">
-            <div class="formgroup">
-                <div class="header">
-                    <div class="feedbackicon">
-                        <img src="#" alt="">
-                    </div>
-                    <div class="feedbacktitle">
-                        <h4>FeedBack</h4>
-                    </div>
-                </div>
-                <div class="body">
-                    <p>The Software Company FeedBack page Helps you Fix your issues and report your problems, and new ideas, generale suggestions and coments</p>
-                    <p>The FeedBack it will not be Shared:</p>
-                    <textarea id="feedbackcontent" placeholder="Describe Your FeedBack Here..."></textarea>
-                </div>
-                <div class="footer">
-                    <button>Next</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script>
-        document.addEventListener("keydown", function(event) {
-          if ((event.ctrlKey || event.metaKey) && event.key === "S") {
-            event.preventDefault();
-          }
-        });
-        document.addEventListener("keydown", function(event) {
-          if ((event.ctrlKey || event.metaKey) && event.key === "U") {
-            event.preventDefault();
-          }
-        });
-        document.addEventListener("keydown", function(event) {
-          if ((event.ctrlKey || event.metaKey) && event.key === "F5") {
-            event.preventDefault();
-          }
-        });
-        document.addEventListener("keydown", function(event) {
-          if ((event.ctrlKey || event.metaKey) && event.key === "F7") {
-            event.preventDefault();
-          }
-        });
-        document.addEventListener("keydown", function(event) {
-          if ((event.ctrlKey || event.metaKey) && event.key === "F9") {
-            event.preventDefault();
-          }
-        });
-        document.addEventListener("keydown", function(event) {
-          if ((event.ctrlKey || event.metaKey) && event.key === "F12") {
-            event.preventDefault();
-          }
-        });
-        document.addEventListener('keydown', function(event) {
-            if (event.key === 'F12') {
-                event.preventDefault();
-            }
-            if (event.ctrlKey && event.shiftKey && event.key === 'I') {
-                event.preventDefault();
-            }
-        });
-        document.addEventListener("keydown", function(event) {
-          if (event.ctrlKey && event.shiftKey && event.key === 'C') {
-            event.preventDefault();
-          }
-        });
-        document.addEventListener("keydown", function(event) {
-          if (event.ctrlKey && event.shiftKey && event.key === 'E') {
-            event.preventDefault();
-          }
-        });
-        document.addEventListener("keydown", function(event) {
-          if (event.ctrlKey && event.shiftKey && event.key === 'Z') {
-            event.preventDefault();
-          }
-        });
-        document.addEventListener("keydown", function(event) {
-          if (event.ctrlKey && event.shiftKey && event.key === 'K') {
-            event.preventDefault();
-          }
-        });
-        document.addEventListener('keydown', function(event) {
-          if (event.key === "Alt") {
-            event.preventDefault();
-            window.close();
-          }
-        });
-        document.addEventListener('keydown', function(event) {
-          if (event.key === "F12") {
-            event.preventDefault();
-            window.close();
-          }
-        });
-      </script>
-</body>
+      </div>
+    <div>
+    <script type="text/javascript" sc-data-connect="sc-access-restrictor-tool">
+      document.addEventListener("keydown",function(event){if((event.ctrlKey || event.metaKey) && event.key === "S"){event.preventDefault();}});
+      document.addEventListener("keydown",function(event){if((event.ctrlKey || event.metaKey) && event.key === "U"){event.preventDefault();}});
+      document.addEventListener("keydown",function(event){if((event.ctrlKey || event.metaKey) && event.key === "F5"){event.preventDefault();}});
+      document.addEventListener("keydown",function(event){if((event.ctrlKey || event.metaKey) && event.key === "F7"){event.preventDefault();}});
+      document.addEventListener("keydown",function(event){if((event.ctrlKey || event.metaKey) && event.key === "F9"){event.preventDefault();}});
+      document.addEventListener("keydown",function(event){if((event.ctrlKey || event.metaKey) && event.key === "F12"){event.preventDefault();}});
+      document.addEventListener('keydown',function(event){if(event.key === 'F12'){event.preventDefault();}if(event.ctrlKey && event.shiftKey && event.key === 'I'){event.preventDefault();}});
+      document.addEventListener("keydown",function(event){if(event.ctrlKey && event.shiftKey && event.key === 'C'){event.preventDefault();}});
+      document.addEventListener("keydown",function(event){if(event.ctrlKey && event.shiftKey && event.key === 'E'){event.preventDefault();}});
+      document.addEventListener("keydown",function(event){if(event.ctrlKey && event.shiftKey && event.key === 'Z'){event.preventDefault();}});
+      document.addEventListener("keydown",function(event){if(event.ctrlKey && event.shiftKey && event.key === 'K'){event.preventDefault();}});
+      document.addEventListener('keydown',function(event){if(event.key === "Alt"){event.preventDefault();window.close();}});
+      document.addEventListener('keydown',function(event){if(event.key === "F12"){event.preventDefault();window.close();}});
+    </script>
+    <script src="./assets/js/behavior/access/restrictor/main.js" type="text/javascript" itemid="access-restrictor-tool" data-chunk="SC-JS-ACCESS-RESTRICTOR"></script>
+    <script src="./sc-theme-switcher.js" type="text/javascript"></script>
+    <script src="./assets/js/sys/theme/main.js"></script>
+    <script src="./assets/js/sc-theme-switcher.js"></script>
+  </body>
 </html>
+<!-- page generated by the software company server in 0.9ms -->

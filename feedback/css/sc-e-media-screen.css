@@ -1,0 +1,90 @@
+@media (width:480px){
+    html body[sc-fb-app-theme="light"] #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+    html body[sc-fb-app-theme="auto"] #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+    html body[sc-fb-app-theme="dark"] #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+    html[sc-fb-app-theme="light"] body #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+    html[sc-fb-app-theme="auto"] body #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+    html[sc-fb-app-theme="dark"] body #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+  
+    html body[sc-fb-app-theme="light"] #sc-feedback-app .sc-img-div {width:100%;height:50%}
+    html body[sc-fb-app-theme="auto"] #sc-feedback-app .sc-img-div {width:100%;height:50%}
+    html body[sc-fb-app-theme="dark"] #sc-feedback-app .sc-img-div {width:100%;height:50%}
+    html[sc-fb-app-theme="light"] body #sc-feedback-app .sc-img-div {width:100%;height:50%}
+    html[sc-fb-app-theme="auto"] body #sc-feedback-app .sc-img-div {width:100%;height:50%}
+    html[sc-fb-app-theme="dark"] body #sc-feedback-app .sc-img-div {width:100%;height:50%}
+  }
+  @media (width:720px){
+    html body[sc-fb-app-theme="light"] #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+    html body[sc-fb-app-theme="auto"] #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+    html body[sc-fb-app-theme="dark"] #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+    html[sc-fb-app-theme="light"] body #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+    html[sc-fb-app-theme="auto"] body #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+    html[sc-fb-app-theme="dark"] body #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+  
+    html body[sc-fb-app-theme="light"] #sc-feedback-app .sc-img-div {width:100%;height:50%}
+    html body[sc-fb-app-theme="auto"] #sc-feedback-app .sc-img-div {width:100%;height:50%}
+    html body[sc-fb-app-theme="dark"] #sc-feedback-app .sc-img-div {width:100%;height:50%}
+    html[sc-fb-app-theme="light"] body #sc-feedback-app .sc-img-div {width:100%;height:50%}
+    html[sc-fb-app-theme="auto"] body #sc-feedback-app .sc-img-div {width:100%;height:50%}
+    html[sc-fb-app-theme="dark"] body #sc-feedback-app .sc-img-div {width:100%;height:50%}
+  }
+  @media (width:730px){
+    html body[sc-fb-app-theme="light"] #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+    html body[sc-fb-app-theme="auto"] #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+    html body[sc-fb-app-theme="dark"] #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+    html[sc-fb-app-theme="light"] body #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+    html[sc-fb-app-theme="auto"] body #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+    html[sc-fb-app-theme="dark"] body #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+  
+    html body[sc-fb-app-theme="light"] #sc-feedback-app .sc-img-div {width:100%;height:50%}
+    html body[sc-fb-app-theme="auto"] #sc-feedback-app .sc-img-div {width:100%;height:50%}
+    html body[sc-fb-app-theme="dark"] #sc-feedback-app .sc-img-div {width:100%;height:50%}
+    html[sc-fb-app-theme="light"] body #sc-feedback-app .sc-img-div {width:100%;height:50%}
+    html[sc-fb-app-theme="auto"] body #sc-feedback-app .sc-img-div {width:100%;height:50%}
+    html[sc-fb-app-theme="dark"] body #sc-feedback-app .sc-img-div {width:100%;height:50%}
+  }
+  @media (width:768px){
+    html body[sc-fb-app-theme="light"] #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+    html body[sc-fb-app-theme="auto"] #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+    html body[sc-fb-app-theme="dark"] #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+    html[sc-fb-app-theme="light"] body #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+    html[sc-fb-app-theme="auto"] body #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+    html[sc-fb-app-theme="dark"] body #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+  
+    html body[sc-fb-app-theme="light"] #sc-feedback-app .sc-img-div {width:100%;height:50%}
+    html body[sc-fb-app-theme="auto"] #sc-feedback-app .sc-img-div {width:100%;height:50%}
+    html body[sc-fb-app-theme="dark"] #sc-feedback-app .sc-img-div {width:100%;height:50%}
+    html[sc-fb-app-theme="light"] body #sc-feedback-app .sc-img-div {width:100%;height:50%}
+    html[sc-fb-app-theme="auto"] body #sc-feedback-app .sc-img-div {width:100%;height:50%}
+    html[sc-fb-app-theme="dark"] body #sc-feedback-app .sc-img-div {width:100%;height:50%}
+  }
+  @media (width:920px){
+    html body[sc-fb-app-theme="light"] #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+    html body[sc-fb-app-theme="auto"] #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+    html body[sc-fb-app-theme="dark"] #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+    html[sc-fb-app-theme="light"] body #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+    html[sc-fb-app-theme="auto"] body #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+    html[sc-fb-app-theme="dark"] body #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+  
+    html body[sc-fb-app-theme="light"] #sc-feedback-app .sc-img-div {width:100%;height:50%}
+    html body[sc-fb-app-theme="auto"] #sc-feedback-app .sc-img-div {width:100%;height:50%}
+    html body[sc-fb-app-theme="dark"] #sc-feedback-app .sc-img-div {width:100%;height:50%}
+    html[sc-fb-app-theme="light"] body #sc-feedback-app .sc-img-div {width:100%;height:50%}
+    html[sc-fb-app-theme="auto"] body #sc-feedback-app .sc-img-div {width:100%;height:50%}
+    html[sc-fb-app-theme="dark"] body #sc-feedback-app .sc-img-div {width:100%;height:50%}
+  }
+  @media (width:930px){
+    html body[sc-fb-app-theme="light"] #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+    html body[sc-fb-app-theme="auto"] #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+    html body[sc-fb-app-theme="dark"] #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+    html[sc-fb-app-theme="light"] body #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+    html[sc-fb-app-theme="auto"] body #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+    html[sc-fb-app-theme="dark"] body #sc-feedback-app{display:flex;flex-direction:column;overflow:hidden}
+  
+    html body[sc-fb-app-theme="light"] #sc-feedback-app .sc-img-div {width:100%;height:50%}
+    html body[sc-fb-app-theme="auto"] #sc-feedback-app .sc-img-div {width:100%;height:50%}
+    html body[sc-fb-app-theme="dark"] #sc-feedback-app .sc-img-div {width:100%;height:50%}
+    html[sc-fb-app-theme="light"] body #sc-feedback-app .sc-img-div {width:100%;height:50%}
+    html[sc-fb-app-theme="auto"] body #sc-feedback-app .sc-img-div {width:100%;height:50%}
+    html[sc-fb-app-theme="dark"] body #sc-feedback-app .sc-img-div {width:100%;height:50%}
+  }
