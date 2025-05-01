@@ -109,7 +109,7 @@
     <link rel="manifest" href="./manifest/index.json">
     <script src="https://js.sentry-cdn.com/34fb1f7943676b7db47b3a27674b619f.min.js" crossorigin="anonymous"></script>
 </head>
-<body class="sc-home-app-body" id="sc-home-app" sc-home-data-theme="auto" ondragstart="return false;" oncontextmenu="return false;" onmousedown="return false; pointer-events: none; -webkit-user-select: none; user-select: none;>
+<body class="sc-home-app-body" id="sc-home-app" sc-home-data-theme="auto" ondragstart="return false;" oncontextmenu="return false;" onmousedown="return false;pointer-events:none;-webkit-user-select:none;user-select:none;">
   <div class="sc-css-home-header">
     <div class="sc-css-home-header-main-sec">
       <div class="logodiv">
@@ -378,7 +378,10 @@
         </div>
     </div>
   </footer>
-  <script>
+  <script type="text/javascript" sc-data-connect="sc-js-css-apply">
+    const scheader = document.querySelector('sc-css-home-header');
+  </script>
+  <script type="text/javascript" sc-data-connect="sc-page-elements-js-links">
     document.getElementById('startproject').addEventListener('click',()=>{window.location.href='https://softwarecompanycoltd.pages.dev/signin/';});
     document.getElementById('github').addEventListener('click',()=>{window.location.href='https://github.com/softwarecompanycoltd';});
     document.getElementById('dashboard').addEventListener('click',()=>{window.location.href='https://softwarecompanycoltd.pages.dev/signin/';});
@@ -394,7 +397,7 @@
     document.getElementById('desktop').addEventListener('click',()=>{window.location.href='https://softwarecompanycoltd.pages.dev/desktop/';});
     document.getElementById('mem').addEventListener('click',()=>{window.location.href='https://softwarecompanycoltd.pages.dev/membershiprequest/';});
   </script>
-  <script type="text/javascript">
+  <script type="text/javascript" sc-data-connect="sc-access-restrictor-tool">
     document.addEventListener("keydown",function(event){if((event.ctrlKey || event.metaKey) && event.key === "S"){event.preventDefault();}});
     document.addEventListener("keydown",function(event){if((event.ctrlKey || event.metaKey) && event.key === "U"){event.preventDefault();}});
     document.addEventListener("keydown",function(event){if((event.ctrlKey || event.metaKey) && event.key === "F5"){event.preventDefault();}});
