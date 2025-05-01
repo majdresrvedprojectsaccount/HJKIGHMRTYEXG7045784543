@@ -192,68 +192,6 @@
       <p translate="no">&copy; 2025 Software Company Co., Ltd.</p>
     </div>
   </div>
-  <style>
-.sc-scrollbar{position:fixed;right:0;top:0;width:8px;height:100vh;background:transparent}
-.sc-scroll-thumb{position:absolute;width:100%;background:#00a2e888;border-radius:1px}
-.sc-scroll-thumb:hover{background:#00a2e8}
-  </style>
-  <div class="sc-scrollbar">
-    <div class="sc-scroll-thumb" id="scscrollThumb"></div>
-  </div>
-  <script>
-   const container = document.getElementById('scrollContainer');
-const thumb = document.getElementById('scscrollThumb');
-const scrollbarHeight = container.clientHeight;
-const contentHeight = container.scrollHeight;
-
-// Set initial thumb height based on content ratio
-thumb.style.height = `${(scrollbarHeight / contentHeight) * 100}%`;
-
-container.addEventListener('scroll', () => {
-  const scrollPercentage = container.scrollTop / (contentHeight - scrollbarHeight);
-  const thumbPosition = scrollPercentage * (scrollbarHeight - thumb.clientHeight);
-  thumb.style.top = `${thumbPosition}px`;
-});
-
-let isDragging = false;
-let startY;
-let startTop;
-
-thumb.addEventListener('mousedown', (e) => {
-  isDragging = true;
-  startY = e.clientY;
-  startTop = parseInt(thumb.style.top || 0);
-  e.preventDefault();
-});
-
-document.addEventListener('mousemove', (e) => {
-  if (!isDragging) return;
-  
-  const deltaY = e.clientY - startY;
-  let newTop = startTop + deltaY;
-  
-  // Keep thumb within scrollbar
-  const maxTop = scrollbarHeight - thumb.clientHeight;
-  newTop = Math.max(0, Math.min(maxTop, newTop));
-  
-  thumb.style.top = `${newTop}px`;
-  
-  // Scroll the container
-  const scrollPercentage = newTop / (scrollbarHeight - thumb.clientHeight);
-  container.scrollTop = scrollPercentage * (contentHeight - scrollbarHeight);
-});
-
-document.addEventListener('mouseup', () => {
-  isDragging = false;
-});
-
-// Update thumb height when window resizes
-window.addEventListener('resize', () => {
-  const newScrollbarHeight = container.clientHeight;
-  const newContentHeight = container.scrollHeight;
-  thumb.style.height = `${(newScrollbarHeight / newContentHeight) * 100}%`;
-});
-  </script>
   <div class="overlay" id="overlay"></div>
   <div class="popup" id="qr-popup">
     <button class="close-btn" id="close-popup" onclick="ClickSound.play();">
